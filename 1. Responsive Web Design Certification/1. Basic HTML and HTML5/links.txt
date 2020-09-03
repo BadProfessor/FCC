@@ -2,4 +2,4 @@ HTML Full Course - Build a Website Tutorial
 https://www.youtube.com/watch?v=pQN-pnXPaVg - Completed
 
 CSS Full Course - Includes Flexbox and CSS Grid Tutorials
-https://www.youtube.com/watch?v=ieTHC78giGQ - 04:30
+https://www.youtube.com/watch?v=ieTHC78giGQ - 1:12:30
