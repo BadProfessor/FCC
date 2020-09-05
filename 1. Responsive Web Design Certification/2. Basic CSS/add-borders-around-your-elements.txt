@@ -17,23 +17,14 @@
     font-family: monospace;
   }
 
-  .thick-green-border {
-    border-color: green;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 50%;
-  }
-
   .smaller-image {
     width: 100px;
   }
 
-  .silver-background {
-    background-color: silver;
-  }
-
-  #cat-photo-form {
-    background-color: green;
+  .thick-green-border {
+    border-width: 10px;
+    border-style: solid;
+    border-color: green;
   }
 </style>
 
@@ -48,7 +39,7 @@
       alt="A cute orange cat lying on its back."
   /></a>
 
-  <div class="silver-background">
+  <div>
     <p>Things cats love:</p>
     <ul>
       <li>cat nip</li>
@@ -63,10 +54,7 @@
     </ol>
   </div>
 
-  <form
-    action="https://freecatphotoapp.com/submit-cat-photo"
-    id="cat-photo-form"
-  >
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
     <label><input type="radio" name="indoor-outdoor" checked /> Indoor</label>
     <label><input type="radio" name="indoor-outdoor" /> Outdoor</label><br />
     <label><input type="checkbox" name="personality" checked /> Loving</label>

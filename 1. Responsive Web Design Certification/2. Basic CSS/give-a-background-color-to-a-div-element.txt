@@ -31,10 +31,6 @@
   .silver-background {
     background-color: silver;
   }
-
-  #cat-photo-form {
-    background-color: green;
-  }
 </style>
 
 <h2 class="red-text">CatPhotoApp</h2>
@@ -63,10 +59,7 @@
     </ol>
   </div>
 
-  <form
-    action="https://freecatphotoapp.com/submit-cat-photo"
-    id="cat-photo-form"
-  >
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
     <label><input type="radio" name="indoor-outdoor" checked /> Indoor</label>
     <label><input type="radio" name="indoor-outdoor" /> Outdoor</label><br />
     <label><input type="checkbox" name="personality" checked /> Loving</label>
