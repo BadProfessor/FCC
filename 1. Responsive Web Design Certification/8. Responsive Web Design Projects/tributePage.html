@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Juraj: Tribute Page</title>
+    <title>Jimi Hendrix Tribute Page</title>
     <style>
       #id {
       }
@@ -12,21 +12,45 @@
       #img-div {
       }
       #image {
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
       }
       #img-caption {
+      }
+      #tribute-info {
+      }
+      #tribute-link {
       }
     </style>
   </head>
   <body>
     <main id="main">
+      <!-- Tester CDN link -->
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <!-- saved in https://codepen.io/badprofessor/pen/poyaopB -->
       <header id="title">Jimi Hendrix Tribute Page</header>
-      <p>The best guitarist of all time.</p>
       <div id="img-div">
         <figure>
-          <img src="#" alt="Jimi Hendrix" id="image" />
-          <figcaption id="img-caption"></figcaption>
+          <img
+            src="https://cdn.pixabay.com/photo/2017/04/27/11/56/jimi-hendrix-2265370_960_720.jpg"
+            alt="Jimi Hendrix"
+            id="image"
+          />
+          <figcaption id="img-caption">
+            Image by Stuart Hampton from Pixabay
+          </figcaption>
         </figure>
       </div>
+      <p id="tribute-info">The best guitarist of all time.</p>
+      <a
+        href="https://en.wikipedia.org/wiki/Jimi_Hendrix"
+        id="tribute-link"
+        target="_blank"
+        >Jimi Hendrix Wikipedia</a
+      >
     </main>
   </body>
 </html>
