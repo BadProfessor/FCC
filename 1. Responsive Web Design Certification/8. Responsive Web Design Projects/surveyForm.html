@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <style>
+      #title {
+      }
+      #description {
+      }
+      #survey-form {
+      }
+      #name {
+      }
+      #email {
+      }
+      #number {
+      }
+      #name-label {
+      }
+      #email-label {
+      }
+      #number-label {
+      }
+      #dropdown {
+      }
+    </style>
+  </head>
+  <body>
+    <!-- tester link -->
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Welcome to our Simple survey form</p>
+    <form action="" id="survey-form">
+      <label for="name" id="name-label">Name</label><br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+      /><br />
+      <label for="email" id="email-label">Email</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+      /><br />
+      <label for="number" id="number-label">Number</label><br />
+      <input
+        type="number"
+        id="number"
+        name="number"
+        min="1"
+        max="999"
+        placeholder="Enter a random number from 1 to 999"
+      /><br />
+      <label for="dropdown">Random dropdown</label><br />
+      <select name="dropdown" id="dropdown">
+        <option value="xbox">Xbox</option>
+        <option value="playstation">PlayStation</option>
+        <option value="nintendo">Nintendo</option>
+      </select>
+      <br />
+      <label for="gender">Gender</label><br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br />
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+      <br />
+    </form>
+  </body>
+</html>
