@@ -25,11 +25,15 @@
       }
       #dropdown {
       }
+      #comments {
+      }
+      #submit {
+      }
     </style>
   </head>
   <body>
     <!-- tester link -->
-    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <h1 id="title">Survey Form</h1>
     <p id="description">Welcome to our Simple survey form</p>
     <form action="" id="survey-form">
@@ -39,6 +43,7 @@
         id="name"
         name="name"
         placeholder="Enter your name"
+        required
       /><br />
       <label for="email" id="email-label">Email</label><br />
       <input
@@ -46,6 +51,7 @@
         id="email"
         name="email"
         placeholder="Enter your email"
+        required
       /><br />
       <label for="number" id="number-label">Number</label><br />
       <input
@@ -71,6 +77,18 @@
       <input type="radio" id="other" name="gender" value="other" />
       <label for="other">Other</label>
       <br />
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> I have a bike</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2"> I have a car</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3"> I have a boat</label><br />
+      <label for="comments">Comments</label><br />
+      <textarea id="comments" name="comments" rows="4" cols="50">
+      Enter your comments here.
+      </textarea
+      ><br />
+      <input type="submit" id="submit" value="Submit" />
     </form>
   </body>
 </html>
