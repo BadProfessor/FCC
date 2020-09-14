@@ -74,3 +74,22 @@ sudo systemctl restart mongodb  // Restart
 sudo systemctl stop mongodb     // Stop
 sudo systemctl disable mongodb  // Disable automatic start
 sudo systemctl enable mongodb   // Enable automatic restart
+
+HTML Full Course - Build a Website Tutorial
+https://www.youtube.com/watch?v=pQN-pnXPaVg - Completed
+
+CSS Full Course - Includes Flexbox and CSS Grid Tutorials
+https://www.youtube.com/watch?v=ieTHC78giGQ - Completed
+
+Build a Tribute Page
+https://www.youtube.com/watch?v=qqrnzmqCGDw - Completed
+
+Learn JavaScript - Full Course for Beginners
+https://www.youtube.com/watch?v=PkZNo7MFNFg - 9:15
+
+
+Later:
+[Missing] Flexbox:
+https://www.youtube.com/watch?v=-Wlt8NRtOpo
+[Missing] Grid:
+https://www.youtube.com/watch?v=t6CBKf8K_Ac
