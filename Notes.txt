@@ -82,7 +82,7 @@ CSS Full Course - Includes Flexbox and CSS Grid Tutorials
 https://www.youtube.com/watch?v=ieTHC78giGQ - Completed
 
 CSS Flexbox Course
-https://www.youtube.com/watch?v=-Wlt8NRtOpo - 1:30
+https://www.youtube.com/watch?v=-Wlt8NRtOpo - 2:00
 
 Build a Tribute Page
 https://www.youtube.com/watch?v=qqrnzmqCGDw - Completed
