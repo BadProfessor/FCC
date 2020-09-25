@@ -84,8 +84,8 @@ https://www.youtube.com/watch?v=ieTHC78giGQ - Completed
 CSS Flexbox Course
 https://www.youtube.com/watch?v=-Wlt8NRtOpo - Completed
 
-[Missing] Grid:
-https://www.youtube.com/watch?v=t6CBKf8K_Ac
+CSS Grid Course
+https://www.youtube.com/watch?v=t6CBKf8K_Ac - 4:20
 
 Build a Tribute Page
 https://www.youtube.com/watch?v=qqrnzmqCGDw - Completed
