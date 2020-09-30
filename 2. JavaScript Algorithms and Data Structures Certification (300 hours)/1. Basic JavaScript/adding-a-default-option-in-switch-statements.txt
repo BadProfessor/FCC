@@ -1,7 +1,7 @@
 function switchOfStuff(val) {
   var answer = '';
   // Only change code below this line
-  switch (answer) {
+  switch (val) {
     case 'a':
       answer = 'apple';
       break;
