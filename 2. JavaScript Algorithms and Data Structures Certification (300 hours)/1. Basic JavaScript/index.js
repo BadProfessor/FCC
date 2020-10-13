@@ -1,11 +1,13 @@
-function checkObj(obj, checkProp) {
+function multiplyAll(arr) {
+  var product = 1;
   // Only change code below this line
-  if (obj.hasOwnProperty(checkProp)) {
-    return obj[checkProp];
-  } else {
-    return 'Not Found';
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr[i].length; j++) {
+      product *= arr[i][j];
+    }
   }
   // Only change code above this line
+  return product;
 }
 
-checkObj({ gift: 'pony', pet: 'kitten', bed: 'sleigh' }, 'gift');
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
