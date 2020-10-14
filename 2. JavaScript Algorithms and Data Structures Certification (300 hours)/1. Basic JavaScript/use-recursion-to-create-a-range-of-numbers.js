@@ -8,4 +8,4 @@ function rangeOfNumbers(startNum, endNum) {
   }
 }
 
-console.log(rangeOfNumbers(10, 5));
+console.log(rangeOfNumbers(6, 11));
