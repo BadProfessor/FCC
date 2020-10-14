@@ -1,27 +1,5 @@
-PYTHON
-#Install Python VS extension
-#Install (copy/paste) the .venv environment
-#Install Folder
-#Install modules
-
-#modules
-pip install --upgrade pip
-pip install django
-pip install djangorestframework
-pip install django-filter
-pip install markdown
-pip install Pillow
-
-#formating
-pip install pylint
-pip install black
-
-#commands
-.venv\Scripts\activate          #activate the environment
-python manage.py migrate        #apply migrations
-python .\manage.py shell        #activate the shell
-python .\manage.py runserver    #run the server
-
+JS
+'use strict';
 
 NODE
 npm i
@@ -30,8 +8,15 @@ npm run build
 npm run start
 npm run debug
 
-DOCKER
-docker run -d -p 80:80 docker/getting-started
+MONGDODB
+mongod --version                // Version
+sudo apt install -y mongodb     // Install MongoDB
+sudo systemctl status mongodb   // Status
+sudo systemctl start mongodb    // Start
+sudo systemctl restart mongodb  // Restart
+sudo systemctl stop mongodb     // Stop
+sudo systemctl disable mongodb  // Disable automatic start
+sudo systemctl enable mongodb   // Enable automatic restart
 
 GIT
 git config --global user.name "user"                            //cli to associate a username with git
@@ -65,15 +50,29 @@ https://git.heroku.com/blockfuzz.git    //heroku git link
 sudo snap install --classic heroku      //install heroku
 heroku run rails console                //run rails console in heroku
 
-MONGDODB
-mongod --version                // Version
-sudo apt install -y mongodb     // Install MongoDB
-sudo systemctl status mongodb   // Status
-sudo systemctl start mongodb    // Start
-sudo systemctl restart mongodb  // Restart
-sudo systemctl stop mongodb     // Stop
-sudo systemctl disable mongodb  // Disable automatic start
-sudo systemctl enable mongodb   // Enable automatic restart
+PYTHON
+#Install Python VS extension
+#Install (copy/paste) the .venv environment
+#Install Folder
+#Install modules
+
+#modules
+pip install --upgrade pip
+pip install django
+pip install djangorestframework
+pip install django-filter
+pip install markdown
+pip install Pillow
+
+#formating
+pip install pylint
+pip install black
+
+#commands
+.venv\Scripts\activate          #activate the environment
+python manage.py migrate        #apply migrations
+python .\manage.py shell        #activate the shell
+python .\manage.py runserver    #run the server
 
 HTML Full Course - Build a Website Tutorial
 https://www.youtube.com/watch?v=pQN-pnXPaVg - Completed
@@ -92,3 +91,6 @@ https://www.youtube.com/watch?v=qqrnzmqCGDw - Completed
 
 Learn JavaScript - Full Course for Beginners
 https://www.youtube.com/watch?v=PkZNo7MFNFg - Completed
+
+JavaScript ES6, ES7, ES8: Learn to Code on the Bleeding Edge (Full Course)
+https://www.youtube.com/watch?v=nZ1DMMsyVyI - Completed
