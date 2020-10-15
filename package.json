@@ -1,14 +1,14 @@
 {
-  "name": "natours",
+  "name": "fcc",
   "version": "1.0.0",
-  "description": "Learning node, express and mongoDB",
+  "description": "Learning JS, React, Node, Express and MongoDB",
   "main": "app.js",
   "scripts": {
     "start": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js",
     "debug": "ndb server.js"
   },
-  "author": "Jonas Schmedtmann",
+  "author": "JJ",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

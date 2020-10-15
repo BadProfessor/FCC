@@ -94,3 +94,6 @@ https://www.youtube.com/watch?v=PkZNo7MFNFg - Completed
 
 JavaScript ES6, ES7, ES8: Learn to Code on the Bleeding Edge (Full Course)
 https://www.youtube.com/watch?v=nZ1DMMsyVyI - Completed
+
+Learn Regular Expressions (Regex) - Crash Course for Beginners
+https://www.youtube.com/watch?v=ZfQFUJhPqMM - 0:00

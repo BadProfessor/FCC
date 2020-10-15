@@ -1,1 +1,1 @@
-# FCC exercises
+# FCC exercises and projects
