@@ -96,4 +96,13 @@ JavaScript ES6, ES7, ES8: Learn to Code on the Bleeding Edge (Full Course)
 https://www.youtube.com/watch?v=nZ1DMMsyVyI - Completed
 
 Learn Regular Expressions (Regex) - Crash Course for Beginners
-https://www.youtube.com/watch?v=ZfQFUJhPqMM - 0:00
+https://www.youtube.com/watch?v=ZfQFUJhPqMM - Completed
+
+JavaScript and the HTML DOM - Tutorial Playlist
+https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO - 1
+
+Debugging JavaScript - Are you doing it wrong?
+https://www.youtube.com/watch?v=ABlaMXkUwzY - 0:00
+
+Debugging Node.js with Paul Irish
+https://www.youtube.com/watch?v=F1VZj-zqnG4 - 0:00
