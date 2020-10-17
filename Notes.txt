@@ -99,10 +99,10 @@ Learn Regular Expressions (Regex) - Crash Course for Beginners
 https://www.youtube.com/watch?v=ZfQFUJhPqMM - Completed
 
 Debugging JavaScript - Are you doing it wrong?
-https://www.youtube.com/watch?v=ABlaMXkUwzY - 0:00
+https://www.youtube.com/watch?v=ABlaMXkUwzY - Completed
 
 Debugging Node.js with Paul Irish
-https://www.youtube.com/watch?v=F1VZj-zqnG4 - 0:00
+https://www.youtube.com/watch?v=F1VZj-zqnG4 - Completed
 
 JavaScript and the HTML DOM - Tutorial Playlist
-https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO - 1
+https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO - 4
