@@ -106,3 +106,9 @@ https://www.youtube.com/watch?v=F1VZj-zqnG4 - Completed
 
 JavaScript and the HTML DOM - Tutorial Playlist
 https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO - 4
+
+Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer
+https://www.youtube.com/watch?v=RBSGKlAvoiM - 0:00
+
+CSS Tutorial - Zero to Hero (Complete Course)
+https://www.youtube.com/watch?v=1Rs2ND1ryYc
