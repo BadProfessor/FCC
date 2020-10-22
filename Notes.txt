@@ -110,3 +110,8 @@ https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFN
 Data Structures and Algorithms in JavaScript - Full Course for Beginners
 https://www.youtube.com/watch?v=t2CEgPsws3U - Completed
 
+Intro to Object Oriented Programming - Crash Course
+https://www.youtube.com/watch?v=SiBw7os-_zI - Completed
+
+JavaScript Classes Tutorial
+https://www.youtube.com/watch?v=2ZphE5HcQPQ - Completed
