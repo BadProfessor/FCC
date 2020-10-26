@@ -117,4 +117,4 @@ JavaScript Classes Tutorial
 https://www.youtube.com/watch?v=2ZphE5HcQPQ - Completed
 
 Functional Programming in ES6 with Nathan and Geoff
-https://www.youtube.com/watch?v=5iDwYK2frNQ - 0:00
+https://www.youtube.com/watch?v=5iDwYK2frNQ - Completed
