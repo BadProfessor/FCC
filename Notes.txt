@@ -256,3 +256,6 @@ Code some quick system monitors using the language of your choice
 2. You will be given an online coding assessment to complete
 
 3. If you pass this - you will have two final virtual interviews - coding & a management interview
+
+
+Virtual briefing: key notes from leadership, managers, previous interns and then talks from me on process + Q&A.
