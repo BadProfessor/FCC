@@ -118,3 +118,6 @@ https://www.youtube.com/watch?v=2ZphE5HcQPQ - Completed
 
 Functional Programming in ES6 with Nathan and Geoff
 https://www.youtube.com/watch?v=5iDwYK2frNQ - Completed
+
+Learn Bootstrap by creating a custom admin theme - Intermediate Tutorial
+https://www.youtube.com/watch?v=RyTRgQ7k6QE - 2:00
