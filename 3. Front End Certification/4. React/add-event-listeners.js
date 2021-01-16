@@ -2,7 +2,7 @@ class MyComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      message: ''
+      message: '',
     };
     this.handleEnter = this.handleEnter.bind(this);
     this.handleKeyPress = this.handleKeyPress.bind(this);
@@ -16,8 +16,8 @@ class MyComponent extends React.Component {
   }
   // Change code above this line
   handleEnter() {
-    this.setState(state => ({
-      message: state.message + 'You pressed the enter key! '
+    this.setState((state) => ({
+      message: state.message + 'You pressed the enter key! ',
     }));
   }
   handleKeyPress(event) {
