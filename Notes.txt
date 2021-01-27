@@ -121,3 +121,5 @@ https://www.youtube.com/watch?v=5iDwYK2frNQ - Completed
 
 Learn Bootstrap by creating a custom admin theme - Intermediate Tutorial
 https://www.youtube.com/watch?v=RyTRgQ7k6QE - 2:00
+
+To add: jQuery, Sass, React, Redux, React and Redux
