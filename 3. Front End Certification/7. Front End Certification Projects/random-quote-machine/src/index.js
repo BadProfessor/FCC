@@ -1,3 +1,4 @@
+// we will not need this code in the codepen .js file
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

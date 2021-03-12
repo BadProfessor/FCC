@@ -1,13 +1,20 @@
+/* import this to the codepen .css file */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #007bff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper {
+  height: 100vh;
+}
+
+.box {
+  background-color: white;
+  position: relative;
+}
+
+.fa-quote-left {
+  position: absolute;
+  opacity: 0.2;
+  top: 10px;
+  left: 10px;
 }

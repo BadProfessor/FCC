@@ -74,6 +74,10 @@ python manage.py migrate        #apply migrations
 python .\manage.py shell        #activate the shell
 python .\manage.py runserver    #run the server
 
+Flat UI Colors
+Bootstrap
+FontAwesome
+
 HTML Full Course - Build a Website Tutorial
 https://www.youtube.com/watch?v=pQN-pnXPaVg - Completed
 
@@ -119,7 +123,4 @@ https://www.youtube.com/watch?v=2ZphE5HcQPQ - Completed
 Functional Programming in ES6 with Nathan and Geoff
 https://www.youtube.com/watch?v=5iDwYK2frNQ - Completed
 
-Learn Bootstrap by creating a custom admin theme - Intermediate Tutorial
-https://www.youtube.com/watch?v=RyTRgQ7k6QE - 2:00
-
-To add: jQuery, Sass, React, Redux, React and Redux
+To add: Bootstrap, jQuery, Sass, React, Redux, React and Redux
