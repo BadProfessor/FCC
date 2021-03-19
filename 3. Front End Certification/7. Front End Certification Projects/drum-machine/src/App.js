@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import React, ReactDOM, additional libraries
+// import React, ReactDOM
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const Box = (props) => {
   <div className="box">{props.text}</div>;
 };
 
-// uncomment this in codepen.js
+// uncomment in codepen.js
 // ReactDOM.render(<App />, document.getElementById('root'));
 
 // delete the following in codepen
