@@ -55,30 +55,76 @@ const sounds = [
 const App = () => (
   <div id="drum-machine" className="container">
     <div id="display" className="display">
+      <h5>Play a sound</h5>
       {sounds.map((sound, idx) => (
-        <Box text={sound.key} key={idx} audio={sound.mp3} />
+        <DrumPad text={sound.key} key={idx} audio={sound.mp3} />
       ))}
     </div>
   </div>
 );
 
-class Box extends React.Component {
+class DrumPad extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.audio = React.createRef();
+  }
+
+  componentDidMount() {
+    this.audio.current.addEventListener('ended', (e) => {
+      const parent = e.target.parentNode;
+      parent.classList.remove('active');
+    });
+  }
+
+  playSound = () => {
+    this.audio.current.play();
+
+    const id = this.audio.current.id;
+
+    const parent = this.audio.current.parentNode;
+    parent.classList.add('active');
+
+    const display = parent.parentNode;
+    display.querySelector('h5').innerText = `${id} is playing`;
+  };
+
   render() {
+    const { text, audio } = this.props;
+
     return (
-      <div className="box">
-        {this.props.text}
-        <audio />
+      <div
+        className="drum-pad"
+        id={`drum-${text}`}
+        onClick={this.playSound}
+        onKeyDown={this.handleKey}
+      >
+        {text}
+        <audio ref={this.audio} src={audio} className="clip" id={text} />
       </div>
     );
   }
 }
+
+document.addEventListener('keydown', (e) => {
+  const id = e.key.toUpperCase();
+  const audio = document.getElementById(id);
+
+  if (audio) {
+    audio.currentTime = 0;
+
+    audio.pause();
+    const parent = audio.parentNode;
+    parent.classList.add('active');
+
+    const display = parent.parentNode;
+    display.querySelector('h5').innerText = `${id} is playing`;
+    audio.play();
+  }
+});
 
 // uncomment in codepen.js
 // ReactDOM.render(<App/>, document.getElementById('root'));
 
 // delete the following in codepen
 export default App;
-
-// https://www.youtube.com/watch?v=gXUshKPc-_g
-// 36:18
-// pen: https://codepen.io/badprofessor/pen/NWbmmwJ
