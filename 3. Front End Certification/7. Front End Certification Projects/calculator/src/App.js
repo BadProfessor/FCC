@@ -4,31 +4,33 @@ import React from 'react';
 const nums = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
 const ops = ['/', '*', '-', '+ ', '='];
 
-const App = () => {
-  return (
-    <div className="calculator">
-      <div id="display" className="display">
-        <div>1500</div>
+class App extends React.Component {
+  render() {
+    return (
+      <div className="calculator">
+        <div id="display" className="display">
+          <div>1500</div>
+        </div>
+        <div className="nums-container">
+          <button className="big-h light-grey ac">AC</button>
+          {nums.map((num) => (
+            <button className={`dark-grey ${num === 0 && 'big-h'}`} key={num}>
+              {num}
+            </button>
+          ))}
+          <button className="light-grey">.</button>
+        </div>
+        <div className="ops-container">
+          {ops.map((op) => (
+            <button className="orange" key={op}>
+              {op}
+            </button>
+          ))}
+        </div>
       </div>
-      <div className="nums-container">
-        <button className="big-h light-grey ac">AC</button>
-        {nums.map((num) => (
-          <button className={`dark-grey ${num === 0 && 'big-h'}`} key={num}>
-            {num}
-          </button>
-        ))}
-        <button className="light-grey">.</button>
-      </div>
-      <div className="ops-container">
-        {ops.map((op) => (
-          <button className="orange" key={op}>
-            {op}
-          </button>
-        ))}
-      </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 //// uncomment this in codepen
 // ReactDOM.render(
@@ -42,4 +44,4 @@ const App = () => {
 export default App;
 
 // https://www.youtube.com/watch?v=NGOzAaJRPQU
-// 42:10
+// 44:00
