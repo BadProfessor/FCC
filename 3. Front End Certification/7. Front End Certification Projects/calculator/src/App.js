@@ -5,6 +5,10 @@ const nums = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
 const ops = ['/', '*', '-', '+ ', '='];
 
 class App extends React.Component {
+  handleClick = (e) => {
+    const { value } = e.target;
+  };
+
   render() {
     return (
       <div className="calculator">
@@ -12,7 +16,9 @@ class App extends React.Component {
           <div>1500</div>
         </div>
         <div className="nums-container">
-          <button className="big-h light-grey ac">AC</button>
+          <button className="big-h light-grey ac" onClick={this.handleClick}>
+            AC
+          </button>
           {nums.map((num) => (
             <button className={`dark-grey ${num === 0 && 'big-h'}`} key={num}>
               {num}
@@ -44,4 +50,4 @@ class App extends React.Component {
 export default App;
 
 // https://www.youtube.com/watch?v=NGOzAaJRPQU
-// 44:00
+// 44:00x
