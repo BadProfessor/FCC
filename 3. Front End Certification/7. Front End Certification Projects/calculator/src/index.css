@@ -20,16 +20,28 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 5px;
-  height: 380px;
+  height: 390px;
   width: 250px;
 }
 
 .display {
+  background-color: #fff;
   color: #fff;
   font-size: 36px;
-  padding: 10px;
+  position: relative;
+  padding: 20px 10px;
   text-align: right;
+  margin-top: 10px;
+  height: 70px;
   width: 100%;
+}
+
+.display small {
+  color: #ee9406;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 12px;
 }
 
 .nums-container {

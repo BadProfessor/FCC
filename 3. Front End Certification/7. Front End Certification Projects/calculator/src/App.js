@@ -5,30 +5,103 @@ const nums = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
 const ops = ['/', '*', '-', '+ ', '='];
 
 class App extends React.Component {
+  state = {
+    lastPressed: undefined,
+    currentNumber: '0',
+    calc: undefined,
+    operation: undefined,
+  };
+
   handleClick = (e) => {
-    const { value } = e.target;
+    const { lastPressed, currentNumber, calc, operation } = this.state;
+    const { innerText } = e.target;
+
+    if (!Number.isNaN(Number(innerText))) {
+      if (currentNumber === '0') {
+        this.setState({
+          currentNumber: innerText,
+        });
+      } else {
+        this.setState({
+          currentNumber: currentNumber + innerText,
+        });
+      }
+
+      return;
+    }
+
+    switch (innerText) {
+      case 'AC': {
+        this.setState({
+          currentNumber: '0',
+          calc: undefined,
+          operation: undefined,
+        });
+        break;
+      }
+      case '.': {
+        if (!currentNumber.includes('.')) {
+          this.setState({
+            currentNumber: currentNumber + innerText,
+          });
+        }
+        break;
+      }
+      default: {
+        if (!operation) {
+          this.setState({
+            operation: innerText,
+            calc: currentNumber,
+            currentNumber: '',
+          });
+        } else if (innerText === '=') {
+          const evaluated = eval(`${calc} ${operation} ${currentNumber}`);
+          this.setState({
+            operation: undefined,
+            calc: evaluated,
+            currentNumber: innerText === '=' ? evaluated : '0',
+          });
+        } else {
+          this.setState({
+            operation: innerText,
+          });
+        }
+      }
+    }
   };
 
   render() {
+    const { currentNumber, calc } = this.state;
+
     return (
       <div className="calculator">
+        <p style={{ position: 'absolute', top: 0 }}>
+          {JSON.stringify(this.state, null, 2)}
+        </p>
         <div id="display" className="display">
-          <div>1500</div>
+          <small>{calc}</small>
+          {currentNumber}
         </div>
         <div className="nums-container">
           <button className="big-h light-grey ac" onClick={this.handleClick}>
             AC
           </button>
           {nums.map((num) => (
-            <button className={`dark-grey ${num === 0 && 'big-h'}`} key={num}>
+            <button
+              className={`dark-grey ${num === 0 && 'big-h'}`}
+              key={num}
+              onClick={this.handleClick}
+            >
               {num}
             </button>
           ))}
-          <button className="light-grey">.</button>
+          <button className="light-grey" onClick={this.handleClick}>
+            .
+          </button>
         </div>
         <div className="ops-container">
           {ops.map((op) => (
-            <button className="orange" key={op}>
+            <button className="orange" key={op} onClick={this.handleClick}>
               {op}
             </button>
           ))}
@@ -50,4 +123,4 @@ class App extends React.Component {
 export default App;
 
 // https://www.youtube.com/watch?v=NGOzAaJRPQU
-// 44:00x
+// 1:21:40
