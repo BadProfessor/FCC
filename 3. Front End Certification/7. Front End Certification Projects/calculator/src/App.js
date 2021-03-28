@@ -16,6 +16,10 @@ class App extends React.Component {
     const { lastPressed, currentNumber, calc, operation } = this.state;
     const { innerText } = e.target;
 
+    this.setState({
+      lastPressed: innerText,
+    });
+
     if (!Number.isNaN(Number(innerText))) {
       if (currentNumber === '0') {
         this.setState({
@@ -56,14 +60,18 @@ class App extends React.Component {
           });
         } else if (innerText === '=') {
           const evaluated = eval(`${calc} ${operation} ${currentNumber}`);
+
           this.setState({
             operation: undefined,
             calc: evaluated,
-            currentNumber: innerText === '=' ? evaluated : '0',
+            currentNumber: evaluated,
           });
         } else {
+          const evaluated = eval(`${calc} ${operation} ${currentNumber}`);
+
           this.setState({
             operation: innerText,
+            currentNumber: evaluated,
           });
         }
       }
@@ -71,7 +79,7 @@ class App extends React.Component {
   };
 
   render() {
-    const { currentNumber, calc } = this.state;
+    const { currentNumber, calc, operation } = this.state;
 
     return (
       <div className="calculator">
@@ -79,7 +87,9 @@ class App extends React.Component {
           {JSON.stringify(this.state, null, 2)}
         </p>
         <div id="display" className="display">
-          <small>{calc}</small>
+          <small>
+            {calc} {operation}
+          </small>
           {currentNumber}
         </div>
         <div className="nums-container">
@@ -123,4 +133,4 @@ class App extends React.Component {
 export default App;
 
 // https://www.youtube.com/watch?v=NGOzAaJRPQU
-// 1:21:40
+// 1:32:30

@@ -25,13 +25,11 @@ body {
 }
 
 .display {
-  background-color: #fff;
   color: #fff;
   font-size: 36px;
   position: relative;
   padding: 20px 10px;
   text-align: right;
-  margin-top: 10px;
   height: 70px;
   width: 100%;
 }
