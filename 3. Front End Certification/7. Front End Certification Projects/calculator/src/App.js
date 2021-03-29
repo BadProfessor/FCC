@@ -1,85 +1,58 @@
 import React from 'react';
-// delete above in codepen
 
 const nums = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
-const ops = ['/', '*', '-', '+ ', '='];
+const ops = ['/', '*', '-', '+', '='];
 
 class App extends React.Component {
   state = {
     lastPressed: undefined,
-    currentNumber: '0',
-    calc: undefined,
+    calc: '0',
     operation: undefined,
   };
 
   handleClick = (e) => {
-    const { lastPressed, currentNumber, calc, operation } = this.state;
+    const { calc, lastPressed } = this.state;
     const { innerText } = e.target;
 
-    this.setState({
-      lastPressed: innerText,
-    });
-
-    if (!Number.isNaN(Number(innerText))) {
-      if (currentNumber === '0') {
-        this.setState({
-          currentNumber: innerText,
-        });
-      } else {
-        this.setState({
-          currentNumber: currentNumber + innerText,
-        });
-      }
-
-      return;
-    }
+    console.log(innerText);
 
     switch (innerText) {
       case 'AC': {
         this.setState({
-          currentNumber: '0',
-          calc: undefined,
-          operation: undefined,
+          calc: '0',
         });
         break;
       }
-      case '.': {
-        if (!currentNumber.includes('.')) {
-          this.setState({
-            currentNumber: currentNumber + innerText,
-          });
-        }
+      case '=': {
+        const evaluated = eval(calc);
+        this.setState({
+          calc: evaluated,
+        });
         break;
       }
       default: {
-        if (!operation) {
-          this.setState({
-            operation: innerText,
-            calc: currentNumber,
-            currentNumber: '',
-          });
-        } else if (innerText === '=') {
-          const evaluated = eval(`${calc} ${operation} ${currentNumber}`);
+        let e = undefined;
 
-          this.setState({
-            operation: undefined,
-            calc: evaluated,
-            currentNumber: evaluated,
-          });
+        if (ops.includes(innerText)) {
+          if (ops.includes(lastPressed)) {
+            e = calc.slice(0, -3) + ` ${innerText} `;
+          } else {
+            e = `${calc} ${innerText} `;
+          }
         } else {
-          const evaluated = eval(`${calc} ${operation} ${currentNumber}`);
-
-          this.setState({
-            operation: innerText,
-            currentNumber: evaluated,
-          });
+          e = calc === '0' ? innerText : calc + innerText;
         }
+
+        this.setState({
+          calc: e,
+          lastPressed: innerText,
+        });
       }
     }
   };
 
   render() {
-    const { currentNumber, calc, operation } = this.state;
+    const { calc } = this.state;
 
     return (
       <div className="calculator">
@@ -87,10 +60,7 @@ class App extends React.Component {
           {JSON.stringify(this.state, null, 2)}
         </p>
         <div id="display" className="display">
-          <small>
-            {calc} {operation}
-          </small>
-          {currentNumber}
+          {calc}
         </div>
         <div className="nums-container">
           <button className="big-h light-grey ac" onClick={this.handleClick}>
@@ -121,7 +91,6 @@ class App extends React.Component {
   }
 }
 
-//// uncomment this in codepen
 // ReactDOM.render(
 //   <React.StrictMode>
 //     <App />
@@ -129,8 +98,7 @@ class App extends React.Component {
 //   document.getElementById('root')
 // );
 
-// delete this in codepen
 export default App;
 
 // https://www.youtube.com/watch?v=NGOzAaJRPQU
-// 1:32:30
+// 2:10:30
