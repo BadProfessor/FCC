@@ -150,6 +150,3 @@ class App extends React.Component {
 // );
 
 export default App;
-
-// https://www.youtube.com/watch?v=NGOzAaJRPQU
-// 2:10:30
