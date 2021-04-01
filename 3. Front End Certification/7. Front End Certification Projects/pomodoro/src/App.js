@@ -1,5 +1,5 @@
 import React from 'react';
-// copy from here
+// cut from here
 
 class App extends React.Component {
   render() {
@@ -33,7 +33,7 @@ const SetTimer = () => (
 //   document.getElementById('root')
 // );
 
-// copy till here
+// cut till here
 export default App;
 
 // https://www.youtube.com/watch?v=5rz6XbrCqt0
