@@ -5,7 +5,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <SetTimer />
+        <div class="flex">
+          <SetTimer />
+          <SetTimer />
+        </div>
+        <div>Clock goes here</div>
       </div>
     );
   }
@@ -14,7 +18,7 @@ class App extends React.Component {
 const SetTimer = () => (
   <div className="timer-container">
     <h1>Break Time</h1>
-    <div>
+    <div className="flex">
       <button>
         <i className="fas fa-minus" />
       </button>
@@ -37,4 +41,4 @@ const SetTimer = () => (
 export default App;
 
 // https://www.youtube.com/watch?v=5rz6XbrCqt0
-// 13:00
+// 14:30
