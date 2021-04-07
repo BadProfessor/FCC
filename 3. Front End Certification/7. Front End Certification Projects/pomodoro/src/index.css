@@ -12,6 +12,16 @@ body {
   justify-content: center;
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 10px;
 }
 
 .flex {
@@ -22,4 +32,30 @@ body {
 
 .timer-container {
   margin: 20px;
+}
+
+.timer-container h2 {
+  margin: -50px 20px 20px;
+}
+
+.actions-wrapper span {
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.clock-container {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20;
+  width: 400px;
+}
+
+.clock-container h1 {
+  margin: 0;
+}
+
+.clock-container span {
+  font-size: 60px;
 }
