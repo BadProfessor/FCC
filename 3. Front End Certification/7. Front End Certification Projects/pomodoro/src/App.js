@@ -77,50 +77,36 @@ class App extends React.Component {
   };
 
   convertToTime = (count) => {
-    const minutes = Math.floor(count / 60);
+    let minutes = Math.floor(count / 60);
     let seconds = count % 60;
 
+    minutes = minutes < 10 ? '0' + minutes : minutes;
     seconds = seconds < 10 ? '0' + seconds : seconds;
 
     return `${minutes}:${seconds}`;
   };
 
-  handleBreakDecrease = () => {
-    const { breakCount } = this.state;
-    if (breakCount > 1) {
-      this.setState({
-        breakCount: breakCount - 1,
-      });
+  handleLengthChange = (count, timerType) => {
+    const { sessionCount, breakCount, isPlaying, currentTimer } = this.state;
+
+    let newCount;
+
+    if (timerType === 'session') {
+      newCount = sessionCount + count;
+    } else {
+      newCount = breakCount + count;
     }
-  };
 
-  handleBreakIncrease = () => {
-    const { breakCount } = this.state;
-
-    if (breakCount < 60) {
+    if (newCount > 0 && newCount < 61 && !isPlaying) {
       this.setState({
-        breakCount: breakCount + 1,
+        [`${timerType}Count`]: newCount,
       });
-    }
-  };
 
-  handleSessionDecrease = () => {
-    const { sessionCount } = this.state;
-
-    if (sessionCount > 1) {
-      this.setState({
-        sessionCount: sessionCount - 1,
-      });
-    }
-  };
-
-  handleSessionIncrease = () => {
-    const { sessionCount } = this.state;
-
-    if (sessionCount < 60) {
-      this.setState({
-        sessionCount: sessionCount + 1,
-      });
+      if (currentTimer.toLowerCase() === timerType) {
+        this.setState({
+          clockCount: newCount * 60,
+        });
+      }
     }
   };
 
@@ -134,17 +120,17 @@ class App extends React.Component {
     } = this.state;
 
     const breakProps = {
-      title: 'Break Length',
+      title: 'Break',
       count: breakCount,
-      handleDecrease: this.handleBreakDecrease,
-      handleIncrease: this.handleBreakIncrease,
+      handleDecrease: () => this.handleLengthChange(-1, 'break'),
+      handleIncrease: () => this.handleLengthChange(1, 'break'),
     };
 
     const sessionProps = {
-      title: 'Session Length',
+      title: 'Session',
       count: sessionCount,
-      handleDecrease: this.handleSessionDecrease,
-      handleIncrease: this.handleSessionIncrease,
+      handleDecrease: () => this.handleLengthChange(-1, 'session'),
+      handleIncrease: () => this.handleLengthChange(1, 'session'),
     };
 
     return (
@@ -176,7 +162,7 @@ const SetTimer = (props) => {
 
   return (
     <div className="timer-container">
-      <h2 id={`${id}-label`}>{props.title}</h2>
+      <h2 id={`${id}-label`}>{props.title} Length</h2>
       <div className="flex actions-wrapper">
         <button id={`${id}-decrement`} onClick={props.handleDecrease}>
           <i className="fas fa-minus" />
@@ -201,6 +187,3 @@ const SetTimer = (props) => {
 
 // cut
 export default App;
-
-// https://www.youtube.com/watch?v=5rz6XbrCqt0
-// 1:18:00
