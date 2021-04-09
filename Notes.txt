@@ -79,48 +79,68 @@ Bootstrap
 FontAwesome
 
 HTML Full Course - Build a Website Tutorial
-https://www.youtube.com/watch?v=pQN-pnXPaVg - Completed
+https://www.youtube.com/watch?v=pQN-pnXPaVg
 
 CSS Full Course - Includes Flexbox and CSS Grid Tutorials
-https://www.youtube.com/watch?v=ieTHC78giGQ - Completed
+https://www.youtube.com/watch?v=ieTHC78giGQ
 
 CSS Flexbox Course
-https://www.youtube.com/watch?v=-Wlt8NRtOpo - Completed
+https://www.youtube.com/watch?v=-Wlt8NRtOpo
 
 CSS Grid Course
-https://www.youtube.com/watch?v=t6CBKf8K_Ac - Completed
+https://www.youtube.com/watch?v=t6CBKf8K_Ac
 
 Build a Tribute Page
-https://www.youtube.com/watch?v=qqrnzmqCGDw - Completed
+https://www.youtube.com/watch?v=qqrnzmqCGDw
 
 Learn JavaScript - Full Course for Beginners
-https://www.youtube.com/watch?v=PkZNo7MFNFg - Completed
+https://www.youtube.com/watch?v=PkZNo7MFNFg
 
 JavaScript ES6, ES7, ES8: Learn to Code on the Bleeding Edge (Full Course)
-https://www.youtube.com/watch?v=nZ1DMMsyVyI - Completed
+https://www.youtube.com/watch?v=nZ1DMMsyVyI
 
 Learn Regular Expressions (Regex) - Crash Course for Beginners
-https://www.youtube.com/watch?v=ZfQFUJhPqMM - Completed
+https://www.youtube.com/watch?v=ZfQFUJhPqMM
 
 Debugging JavaScript - Are you doing it wrong?
-https://www.youtube.com/watch?v=ABlaMXkUwzY - Completed
+https://www.youtube.com/watch?v=ABlaMXkUwzY
 
 Debugging Node.js with Paul Irish
-https://www.youtube.com/watch?v=F1VZj-zqnG4 - Completed
+https://www.youtube.com/watch?v=F1VZj-zqnG4
 
 JavaScript and the HTML DOM - Tutorial Playlist
-https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO - Completed
+https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO
 
 Data Structures and Algorithms in JavaScript - Full Course for Beginners
-https://www.youtube.com/watch?v=t2CEgPsws3U - Completed
+https://www.youtube.com/watch?v=t2CEgPsws3U
 
 Intro to Object Oriented Programming - Crash Course
-https://www.youtube.com/watch?v=SiBw7os-_zI - Completed
+https://www.youtube.com/watch?v=SiBw7os-_zI
 
 JavaScript Classes Tutorial
-https://www.youtube.com/watch?v=2ZphE5HcQPQ - Completed
+https://www.youtube.com/watch?v=2ZphE5HcQPQ
 
 Functional Programming in ES6 with Nathan and Geoff
-https://www.youtube.com/watch?v=5iDwYK2frNQ - Completed
+https://www.youtube.com/watch?v=5iDwYK2frNQ
 
-To add: Bootstrap, jQuery, Sass, React, Redux, React and Redux
+Learn Bootstrap by creating a custom admin theme - Intermediate Tutorial
+https://www.youtube.com/watch?v=RyTRgQ7k6QE
+
+jQuery vs vanilla JavaScript - Beau teaches JavaScript
+https://www.youtube.com/watch?v=X65s7WQLWJY
+
+Sass Tutorial for Beginners - CSS With Superpowers
+https://www.youtube.com/watch?v=_a5j7KoflTs
+
+==============================================================
+
+Learn React JS - Full Course for Beginners - Tutorial 2019
+https://www.youtube.com/watch?v=DLX62G4lc44
+2:00
+
+React Tutorials Playlist
+https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
+
+freecodecamp.org react
+https://www.youtube.com/results?search_query=freecodecamp.org+react
+
