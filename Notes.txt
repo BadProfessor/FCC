@@ -136,7 +136,10 @@ https://www.youtube.com/watch?v=_a5j7KoflTs
 
 Learn React JS - Full Course for Beginners - Tutorial 2019
 https://www.youtube.com/watch?v=DLX62G4lc44
-2:00
+--In Progress--
+
+React Tutorial: Build an e-commerce site from scratch using React and Netlify
+https://www.youtube.com/watch?v=wPQ1-33teR4&list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC&index=2
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
