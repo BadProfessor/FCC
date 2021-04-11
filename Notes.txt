@@ -132,11 +132,18 @@ https://www.youtube.com/watch?v=X65s7WQLWJY
 Sass Tutorial for Beginners - CSS With Superpowers
 https://www.youtube.com/watch?v=_a5j7KoflTs
 
+Git & GitHub
+https://www.youtube.com/watch?v=vR-y_2zWrIE&list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF
+
 ==============================================================
+
+Git and GitHub for Beginners - Crash Course
+https://www.youtube.com/watch?v=RGOj5yH7evk
+--In Progress--
 
 Learn React JS - Full Course for Beginners - Tutorial 2019
 https://www.youtube.com/watch?v=DLX62G4lc44
---In Progress--
+--In Progress-- // 1:0:21
 
 React Tutorial: Build an e-commerce site from scratch using React and Netlify
 https://www.youtube.com/watch?v=wPQ1-33teR4&list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC&index=2
