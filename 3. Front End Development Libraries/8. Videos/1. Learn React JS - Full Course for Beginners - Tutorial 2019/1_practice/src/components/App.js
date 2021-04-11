@@ -37,18 +37,62 @@ import React from 'react';
 //   );
 // }
 
-// // Practice 6
+// // // Practice 6
+// function App() {
+//   // const firstName = 'Bob';
+//   // const lastName = 'Ziroll';
+//   const date = new Date();
+
+//   return (
+//     <div>
+//       <h1>
+//         {/* Hello {firstName} {lastName} */}
+//         It is current about {date.getHours() % 12} o'clock!
+//       </h1>
+//     </div>
+//   );
+// }
+
+// // // Practice 7
+// function App() {
+//   const date = new Date();
+//   const hours = date.getHours();
+//   let timeOfDay;
+
+//   if (hours < 12) {
+//     timeOfDay = 'morning';
+//   } else if (hours >= 12 && hours < 17) {
+//     timeOfDay = 'afternoon';
+//   } else {
+//     timeOfDay = 'night';
+//   }
+
+//   return (
+//     <div>
+//       <h1>Good {timeOfDay}</h1>
+//     </div>
+//   );
+// }
+
+// // Practice 8
 function App() {
-  // const firstName = 'Bob';
-  // const lastName = 'Ziroll';
   const date = new Date();
+  const hours = date.getHours();
+  let timeOfDay;
+
+  if (hours < 12) {
+    timeOfDay = 'morning';
+  } else if (hours >= 12 && hours < 17) {
+    timeOfDay = 'afternoon';
+  } else {
+    timeOfDay = 'night';
+  }
+
+  const styles = { color: '#FF8C00', backgroundColor: '#FF2D00' };
 
   return (
     <div>
-      <h1>
-        {/* Hello {firstName} {lastName} */}
-        It is current about {date.getHours() % 12} o'clock!
-      </h1>
+      <h1 style={styles}>Good {timeOfDay}</h1>
     </div>
   );
 }
@@ -56,4 +100,5 @@ function App() {
 export default App;
 
 // https://www.youtube.com/watch?v=DLX62G4lc44
-// 1:02:11
+// 1:0:21
+// https://scrimba.com/learn/learnreact
