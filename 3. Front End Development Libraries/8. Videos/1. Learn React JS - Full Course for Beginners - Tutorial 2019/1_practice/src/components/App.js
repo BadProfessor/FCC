@@ -1,113 +1,24 @@
 import React from 'react';
 
-// // Practice 4
-// import Footer from './Footer';
-// function App() {
-//   return (
-//     <div>
-//       <nav>
-//         <h1>Hello World!</h1>
-//         <p>Paragraph</p>
-//         <ul>
-//           <li>1</li>
-//           <li>2</li>
-//           <li>3</li>
-//         </ul>
-//       </nav>
-//       <main>
-//         <p>Most of the content</p>
-//       </main>
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// // // Practice 5
-// import Footer from './Footer';
-// import Nav from './Header';
-// import Main from './Main';
-
-// function App() {
-//   return (
-//     <div>
-//       <Nav />
-//       <Main />
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// // // Practice 6
-// function App() {
-//   // const firstName = 'Bob';
-//   // const lastName = 'Ziroll';
-//   const date = new Date();
-
-//   return (
-//     <div>
-//       <h1>
-//         {/* Hello {firstName} {lastName} */}
-//         It is current about {date.getHours() % 12} o'clock!
-//       </h1>
-//     </div>
-//   );
-// }
-
-// // // Practice 7
-// function App() {
-//   const date = new Date();
-//   const hours = date.getHours();
-//   let timeOfDay;
-
-//   if (hours < 12) {
-//     timeOfDay = 'morning';
-//   } else if (hours >= 12 && hours < 17) {
-//     timeOfDay = 'afternoon';
-//   } else {
-//     timeOfDay = 'night';
-//   }
-
-//   return (
-//     <div>
-//       <h1>Good {timeOfDay}</h1>
-//     </div>
-//   );
-// }
-
-// // // Practice 8
-// function App() {
-//   const date = new Date();
-//   const hours = date.getHours();
-//   let timeOfDay;
-
-//   if (hours < 12) {
-//     timeOfDay = 'morning';
-//   } else if (hours >= 12 && hours < 17) {
-//     timeOfDay = 'afternoon';
-//   } else {
-//     timeOfDay = 'night';
-//   }
-
-//   const styles = { color: '#FF8C00', backgroundColor: '#FF2D00' };
-
-//   return (
-//     <div>
-//       <h1 style={styles}>Good {timeOfDay}</h1>
-//     </div>
-//   );
-// }
-
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
       firstName: '',
       lastName: '',
-      age: 0,
+      age: '',
       gender: '',
       destination: '',
       dietaryRestrictions: [],
     };
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(event) {
+    const { name, value } = event.target;
+    this.setState({
+      [name]: value,
+    });
   }
 
   render() {
@@ -136,10 +47,39 @@ class App extends React.Component {
           />
           <br />
 
-          {/* Create radio buttons for gender here */}
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="male"
+              checked={this.state.gender === 'male'}
+              onChange={this.handleChange}
+            />
+            Male
+          </label>
+
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="female"
+              checked={this.state.gender === 'female'}
+              onChange={this.handleChange}
+            />
+            Female
+          </label>
           <br />
 
-          {/* Create select box for location here */}
+          <select
+            value={this.state.destination}
+            name="destination"
+            onChange={this.handleChange}
+          >
+            <option value="germany">Germany</option>
+            <option value="norway">Norway</option>
+            <option value="north pole">North Pole</option>
+            <option value="south pole">South Pole</option>
+          </select>
           <br />
 
           {/* Create check boxes for dietary restrictions here */}
@@ -149,10 +89,12 @@ class App extends React.Component {
         </form>
         <hr />
         <h2>Entered information:</h2>
-        <p>Your name: {/* First and last name here */}</p>
-        <p>Your age: {/* Age here */}</p>
-        <p>Your gender: {/* Gender here */}</p>
-        <p>Your destination: {/* Destination here */}</p>
+        <p>
+          Your name: {this.state.firstName} {this.state.lastName}
+        </p>
+        <p>Your age: {this.state.age}</p>
+        <p>Your gender: {this.state.gender}</p>
+        <p>Your destination: {this.state.destination}</p>
         <p>
           Your dietary restrictions:
           {/* Dietary restrictions here, comma separated */}
