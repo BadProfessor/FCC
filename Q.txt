@@ -1,0 +1,30 @@
+CMS
+CIAM
+CDP
+CRP
+DMP
+IT Ops
+Marketing Ops
+Ad Ops
+REST APIs
+AWS
+Azure
+HTML
+CSS
+JS
+SLI
+SLO
+SLA
+
+Not an issue, as a brief on the technologies used,  I would go with: 
+ - CMS systems, similar to Wordpress and AEM.
+ - HTML, CSS, JSON, a little of JS, shell, etc..
+ - Azure would be considered advantage
+ - AWS understanding is also considered advantage: 
+  * Cloudwatch
+  * Lambda functions 
+  * DynamoDB 
+   etc.. 
+ - Rest API is a must have. Tools that are used for it, like Postman, Fiddler.. etc.. 
+
+At that point in time, we are not much into writing code for the products but operating them (supporting), and of course there are cases in which we may need to write a script or some work around using JS, shell, bash etc..
