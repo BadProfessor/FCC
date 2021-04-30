@@ -138,13 +138,11 @@ https://www.youtube.com/watch?v=vR-y_2zWrIE&list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWM
 Git and GitHub for Beginners - Crash Course
 https://www.youtube.com/watch?v=RGOj5yH7evk
 
-==============================================================
-
 Learn React JS - Full Course for Beginners - Tutorial 2019
 https://www.youtube.com/watch?v=DLX62G4lc44
---In Progress-- // 4:37:00
-
 // https://scrimba.com/learn/learnreact
+
+==============================================================
 
 React Tutorial: Build an e-commerce site from scratch using React and Netlify
 https://www.youtube.com/watch?v=wPQ1-33teR4&list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC&index=2
