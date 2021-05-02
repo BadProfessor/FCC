@@ -1,30 +1,71 @@
 CMS
+https://en.wikipedia.org/wiki/Content_management_system
+https://www.youtube.com/watch?v=-C7lSOVLhQs
+A content management system (CMS)[1][2][3] is a computer software used to manage the creation and modification of digital content.
+
+Wordpress
+https://www.youtube.com/watch?v=71EZb94AS1k
+WordPress (WP, WordPress.org) is a free and open-source content management system (CMS) written in PHP[4] and paired with a MySQL or MariaDB database. Features include a plugin architecture and a template system, referred to within WordPress as Themes.
+
+Adobe Experience Manager
+https://www.youtube.com/watch?v=OhTA69mzDg0&list=PL2rn7ZBYpBjtPyy5-pEBxwwIowcIoVv40&index=3
+Adobe Experience Cloud (AEC), formerly Adobe Marketing Cloud (AMC), is a collection of integrated online marketing and web analytics products by Adobe Inc.
+Adobe Experience Manager (AEM)[21] is an enterprise content management system[22] and digital asset management.[23] Before its acquisition, it was formerly known as Day CQ5.
+
 CIAM
+https://auth0.com/blog/what-is-ciam/
+https://www.youtube.com/watch?v=7O1cCJXaovo
+Customer (or consumer) identity and access management (CIAM) is a subset of the larger concept of identity access management (IAM) and is focused specifically on managing the identities of customers who need access to corporate websites, web portals and webshops.[1][2] Instead of managing user accounts in every instance of a software application of a company, the identity is managed in a CIAM component, making reuse of the identity possible. The biggest differentiator between CIAM and regular (internal) IAM is that in CIAM the consumers of the service manage their own accounts and profile data. [3] 
+
 CDP
-CRP
+https://www.youtube.com/watch?v=pp3I6AgGwss
+https://www.youtube.com/watch?v=mYqTeK0AIko
+A customer data platform (CDP) is a collection of software which creates a persistent, unified customer database that is accessible to other systems. Data is pulled from multiple sources, cleaned and combined to create a single customer profile. This structured data is then made available to other marketing systems.[1] According to Gartner, customer data platforms have evolved from a variety of mature markets, "including multichannel campaign management, tag management and data integration."[2]
+
+ERP
+https://www.youtube.com/watch?v=6qys-562kp4
+Enterprise resource planning (ERP) is the integrated management of main business processes, often in real time and mediated by software and technology. ERP is usually referred to as a category of business management software—typically a suite of integrated applications—that an organization can use to collect, store, manage, and interpret data from many business activities. ERP Systems can be local based or Cloud-based. Cloud based applications are growing in recent days due to information being readily available from any location with internet access. 
+
 DMP
+https://www.youtube.com/watch?v=14W-qXZvdKQ
+A data management platform (DMP) is a software platform used for collecting and managing data. They allow businesses to identify audience segments, which can be used to target specific users and contexts in online advertising campaigns. DMPs may use big data and artificial intelligence algorithms to process and analyze large data sets about users from various sources.[1] Some advantages of using DMPs include data organization, increased insight on audiences and markets, and effective advertisement budgeting.[2] On the other hand, DMPs often have to deal with privacy concerns due to the integration of third-party software with private data. This technology is continuously being developed by global entities such as Nielsen and Oracle.[3]
+
 IT Ops
+https://www.youtube.com/watch?v=57co0E5YAuI
+Information Technology Operations, or IT operations, are the set of all processes and services that are both provisioned by an IT staff to their internal or external clients and used by themselves, to run themselves as a business. The term refers to the application of operations management to a business's technology needs. Operations work can include responding to tickets generated for maintenance work or customer issues. Some operations teams rely on on-call responses to incidents during off-hours periods
+
 Marketing Ops
+https://www.youtube.com/watch?v=XRr5lG0yNXc
+Marketing Operations is a broad term that collectively describes the function of the marketing organization, including people, process, and technology, that enables marketing to operate efficiently and to scale with quality and consistency.
+It serves as the backbone of a marketing team, delivering planning, governance and support functions to allow core marketing functions to focus on delivering value.
+
 Ad Ops
-REST APIs
-AWS
-Azure
+https://www.youtube.com/watch?v=FrZNWBpdkjs
+Ad Operations (aka "online ad operations", "online advertising operations", "online ad ops", "ad ops", and "ops" in the trade) refers to processes and systems that support the sale and delivery of online advertising. More specifically this is the workflow processes and software systems that are used to sell, input, serve, target and report on the performance of online ads. Digital or online advertising is a subset of the advertising industry that references electronic communication promotions and marketing. This can include but is not limited to website display advertising (banner ads or rich media advertising), text advertising, search advertising (paid search results), online video advertising, mobile and device advertising (sms, wap display ads, video, application ads), email display ads and text advertising. These advertisements are a form of revenue generation for content providers. The primary function of ad operations is to fulfilling the order of sale (also called an “ad campaign” or “media ad buy”) purchased directly by or on behalf of an advertiser (also called a “direct marketer” or a “client”). Therefore ad operations is a group that directly responsible for revenue generation.[1]
+
 HTML
 CSS
 JS
+RequireJS
+Handlebars
+jQuery
+Bootstrap
+Day.js
+Modernizr
+Google Tag Manager
+JSON
+REST APIs
+Postman
+Fiddler
+Shell
+Bash
 SLI
 SLO
 SLA
-
-Not an issue, as a brief on the technologies used,  I would go with: 
- - CMS systems, similar to Wordpress and AEM.
- - HTML, CSS, JSON, a little of JS, shell, etc..
- - Azure would be considered advantage
- - AWS understanding is also considered advantage: 
-  * Cloudwatch
-  * Lambda functions 
-  * DynamoDB 
-   etc.. 
- - Rest API is a must have. Tools that are used for it, like Postman, Fiddler.. etc.. 
-
-At that point in time, we are not much into writing code for the products but operating them (supporting), and of course there are cases in which we may need to write a script or some work around using JS, shell, bash etc..
+AWS
+Amazon S3
+Cloudfront
+jsDelivr
+Cloudwatch
+Lambda
+DynamoDB
