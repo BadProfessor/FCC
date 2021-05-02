@@ -147,7 +147,7 @@ https://www.youtube.com/watch?v=DLX62G4lc44
 React Tutorial: Build an e-commerce site from scratch using React and Netlify
 https://www.youtube.com/watch?v=wPQ1-33teR4
 https://github.com/john-smilga/setup-filese-react-phone-e-commerce-project
-9:00
+19:35
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
