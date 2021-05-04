@@ -44,10 +44,27 @@ https://www.youtube.com/watch?v=FrZNWBpdkjs
 Ad Operations (aka "online ad operations", "online advertising operations", "online ad ops", "ad ops", and "ops" in the trade) refers to processes and systems that support the sale and delivery of online advertising. More specifically this is the workflow processes and software systems that are used to sell, input, serve, target and report on the performance of online ads. Digital or online advertising is a subset of the advertising industry that references electronic communication promotions and marketing. This can include but is not limited to website display advertising (banner ads or rich media advertising), text advertising, search advertising (paid search results), online video advertising, mobile and device advertising (sms, wap display ads, video, application ads), email display ads and text advertising. These advertisements are a form of revenue generation for content providers. The primary function of ad operations is to fulfilling the order of sale (also called an “ad campaign” or “media ad buy”) purchased directly by or on behalf of an advertiser (also called a “direct marketer” or a “client”). Therefore ad operations is a group that directly responsible for revenue generation.[1]
 
 HTML
+https://www.w3schools.com/html/
+HTML is the standard markup language for Web pages.
+With HTML you can create your own Website.
+HTML is easy to learn - You will enjoy it!
 CSS
+https://www.w3schools.com/css/
+CSS is the language we use to style an HTML document.
+CSS describes how HTML elements should be displayed.
+This tutorial will teach you CSS from basic to advanced.
 JS
+https://www.javascript.com/
+https://www.w3schools.com/js/DEFAULT.asp
+JavaScript is the world's most popular programming language.
+JavaScript is the programming language of the Web.
+JavaScript is easy to learn.
+This tutorial will teach you JavaScript from basic to advanced.
 RequireJS
+https://requirejs.org/
+RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node. Using a modular script loader like RequireJS will improve the speed and quality of your code.
 Handlebars
+
 jQuery
 Bootstrap
 Day.js
