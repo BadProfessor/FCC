@@ -79,22 +79,108 @@ https://jquery.com/
 jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
 
 Bootstrap
+https://getbootstrap.com/
+Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+
 Day.js
+https://day.js.org/
+Day.js is a minimalist JavaScript library that parses, validates, manipulates, and displays dates and times for modern browsers with a largely Moment.js-compatible API.
+
+Moment.js
+https://momentjs.com/
+Parse, validate, manipulate,
+and display dates and times in JavaScript.
+
+
 Modernizr
+https://modernizr.com/
+It’s a collection of superfast tests – or “detects” as we like to call them – which run as your web page loads, then you can use the results to tailor the experience to the user.
+
 Google Tag Manager
+https://support.google.com/tagmanager/answer/6102821?hl=en
+Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app. Once the small segment of Tag Manager code has been added to your project, you can safely and easily deploy analytics and measurement tag configurations from a web-based user interface.
+
 JSON
+https://www.w3schools.com/whatis/whatis_json.asp
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
 REST APIs
+https://www.redhat.com/en/topics/api/what-is-a-rest-api
+A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for representational state transfer and was created by computer scientist Roy Fielding.
+
 Postman
+https://www.postman.com/
+The Collaboration Platform for API Development
+
 Fiddler
+https://www.telerik.com/fiddler
+Fiddler is a debugging proxy server tool used to log, inspect, and alter HTTP and HTTPS traffic between a computer and a web server or servers. Fiddler was originally written by Eric Lawrence while a Program Manager on the Internet Explorer development team at Microsoft.[1]
+The usage of the name “Fiddler” has broadened to encompass additional products and tools provided by Progress Telerik including Fiddler Classic, Fiddler Everywhere Pro, Fiddler Core, Fiddler Cap, and Fiddler Jam. 
+
 Shell
+https://bigstep.com/blog/top-5-linux-shells-and-how-to-install-them
+The shell is an interactive interface that allows users to execute other commands and utilities in Linux and other UNIX-based operating systems. When you login to the operating system, the standard shell is displayed and allows you to perform common operations such as copy files or restart the system.
+Linux shells are a lot more powerful than the Windows command line, because they function as a scripting language as well, with a complete set of tools. Multiple shells can be installed on a system and it is possible to quickly switch between them. Every shell comes with its own syntax and scripting features, let’s discuss the most common options and how to install them on a Cent OS 7 server.
+
 Bash
-SLI
-SLO
+https://bigstep.com/blog/top-5-linux-shells-and-how-to-install-them
+Bash, or the Bourne-Again Shell, is by far the most widely used choice and it comes installed as the default shell in the most popular Linux distributions. It was developed from the original UNIX Bourne shell (also known as sh) and was designed to be fully compatible with the old scripts, while adding multiple improved features.
+Bash is a very solid shell option, since it has been used for a long time and there is ample documentation for it. In fact, most online tutorials will assume that you’re using bash.
+As a result, it is recommended for most users and works great for most common system administration tasks. However, if you need more powerful scripting options or other advanced tools, it is time to explore some of the newer shells available.
+
+Windows Shell
+The Windows shell is the graphical user interface for the Microsoft Windows operating system. Its readily identifiable elements consists of the desktop, the taskbar, the Start menu, the task switcher and the AutoPlay feature. On some versions of Windows, it also includes Flip 3D and the charms.
+
 SLA
+https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli
+An SLA (service level agreement) is an agreement between provider and client about measurable metrics like uptime, responsiveness, and responsibilities. 
+These agreements are typically drawn up by a company’s new business and legal teams and they represent the promises you’re making to customers—and the consequences if you fail to live up to those promises. Typically, consequences include financial penalties, service credits, or license extensions.
+
+SLO
+https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli
+An SLO (service level objective) is an agreement within an SLA about a specific metric like uptime or response time. So, if the SLA is the formal agreement between you and your customer, SLOs are the individual promises you’re making to that customer. SLOs are what set customer expectations and tell IT and DevOps teams what goals they need to hit and measure themselves against.
+
+SLI
+https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli
+An SLI (service level indicator) measures compliance with an SLO (service level objective). So, for example, if your SLA specifies that your systems will be available 99.95% of the time, your SLO is likely 99.95% uptime and your SLI is the actual measurement of your uptime. Maybe it’s 99.96%. Maybe 99.99%. To stay in compliance with your SLA, the SLI will need to meet or exceed the promises made in that document.
+
 AWS
+https://aws.amazon.com/
+Amazon Web Services (AWS) is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow. In simple words AWS allows you to do the following things- Running web and application servers in the cloud to host dynamic websites.
+
+Amazon EC2
+https://aws.amazon.com/ec2/
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2’s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon’s proven computing environment.
+
 Amazon S3
-Cloudfront
+https://aws.amazon.com/s3/
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. This means customers of all sizes and industries can use it to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. Amazon S3 provides easy-to-use management features so you can organize your data and configure finely-tuned access controls to meet your specific business, organizational, and compliance requirements. Amazon S3 is designed for 99.999999999% (11 9's) of durability, and stores data for millions of applications for companies all around the world.
+
+Amazon Cloudfront
+https://aws.amazon.com/cloudfront/
+Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
+CloudFront offers the most advanced security capabilities, including field level encryption and HTTPS support, seamlessly integrated with AWS Shield, AWS Web Application Firewall and Route 53 to protect against multiple types of attacks including network and application layer DDoS attacks. These services co-reside at edge networking locations – globally scaled and connected via the AWS network backbone – providing a more secure, performant, and available experience for your users.
+
+Amazon CloudWatch
+https://aws.amazon.com/cloudwatch/
+Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers. CloudWatch provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health. CloudWatch collects monitoring and operational data in the form of logs, metrics, and events, providing you with a unified view of AWS resources, applications, and services that run on AWS and on-premises servers. You can use CloudWatch to detect anomalous behavior in your environments, set alarms, visualize logs and metrics side by side, take automated actions, troubleshoot issues, and discover insights to keep your applications
+running smoothly.
+
+Amazon Lambda
+https://aws.amazon.com/lambda/
+AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes. With Lambda, you can run code for virtually any type of application or backend service - all with zero administration. Just upload your code as a ZIP file or container image, and Lambda automatically and precisely allocates compute execution power and runs your code based on the incoming request or event, for any scale of traffic. You can set up your code to automatically trigger from 140 AWS services or call it directly from any web or mobile app. You can write Lambda functions in your favorite language (Node.js, Python, Go, Java, and more) and use both serverless and container tools, such as AWS SAM or Docker CLI, to build, test, and deploy your functions.
+
+
+Amazon DynamoDB
+https://aws.amazon.com/dynamodb/
+Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale. It's a fully managed, multi-region, multi-active, durable database with built-in security, backup and restore, and in-memory caching for internet-scale applications. DynamoDB can handle more than 10 trillion requests per day and can support peaks of more than 20 million requests per second.
+
+
 jsDelivr
-Cloudwatch
-Lambda
-DynamoDB
+https://www.jsdelivr.com/
+jsDelivr is a free public CDN for open-source projects.
+It can serve web files directly from the npm registry and GitHub repositories without any configuration.
+It is currently the second most popular public CDN that hosts multiple projects. On October 14, 2020, it became the official CDN of Bootstrap.
