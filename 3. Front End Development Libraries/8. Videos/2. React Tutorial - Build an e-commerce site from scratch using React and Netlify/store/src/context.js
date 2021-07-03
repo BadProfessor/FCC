@@ -84,6 +84,7 @@ class ProductProvider extends Component {
     const selectedProduct = tempCart.find((item) => item.id === id);
 
     const index = tempCart.indexOf(selectedProduct);
+    // comment
   };
 
   decrement = (id) => {
