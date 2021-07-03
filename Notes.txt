@@ -1,0 +1,163 @@
+JS
+'use strict';
+
+NODE
+npm i
+npm run dev
+npm run build
+npm run start
+npm run debug
+
+MONGDODB
+mongod --version                // Version
+sudo apt install -y mongodb     // Install MongoDB
+sudo systemctl status mongodb   // Status
+sudo systemctl start mongodb    // Start
+sudo systemctl restart mongodb  // Restart
+sudo systemctl stop mongodb     // Stop
+sudo systemctl disable mongodb  // Disable automatic start
+sudo systemctl enable mongodb   // Enable automatic restart
+
+GIT
+git config --global user.name "user"                            //cli to associate a username with git
+git config --global user.email "email"                          //cli to associate a email with git
+git config --list                                               //check settings
+git init                                                        //initialize git
+git add -A                                                      //start adding
+git status                                                      //check the status
+git commit -m "Message"                                         //commit changes with a message
+git checkout -f                                                 //uncommit last changes
+ls -al ~/.ssh                                                   //check for any ssh keys
+ssh-keygen -t rsa                                               //generate rsa key pair - press three times enter
+cat ~/.ssh/id_rsa.pub                                           //press to check again the key
+git remote add origin git@github.com:BadProfessor/BlockFuzz.git //push the origin to GitHub
+git remote -v                                                   //list the origin
+git push -u origin master                                       //push to the master branch
+git checkout -b <branch name>                                   //create new branch
+git checkout <branch name>                                      //switch to a branch
+git merge   <branch name>                                       //merge the branches
+git branch -d <branch name>                                     //delete branch
+
+HEROKU
+heroku login                            //login to heroku
+heroku create                           //creates the application in heroku
+heroku keys:add                         //add the ssh keys to heroku
+git push heroku master                  //push the changes to heroku master branch
+heroku run rails db:migrate             //generate a table in heroku
+heroku rename <placeholder>             //rename your app
+https://blockfuzz.herokuapp.com/        //heroku app link
+https://git.heroku.com/blockfuzz.git    //heroku git link
+sudo snap install --classic heroku      //install heroku
+heroku run rails console                //run rails console in heroku
+
+PYTHON
+#Install Python VS extension
+#Install (copy/paste) the .venv environment
+#Install Folder
+#Install modules
+
+#modules
+pip install --upgrade pip
+pip install django
+pip install djangorestframework
+pip install django-filter
+pip install markdown
+pip install Pillow
+
+#formating
+pip install pylint
+pip install black
+
+#commands
+.venv\Scripts\activate          #activate the environment
+python manage.py migrate        #apply migrations
+python .\manage.py shell        #activate the shell
+python .\manage.py runserver    #run the server
+
+Flat UI Colors
+Bootstrap
+FontAwesome
+
+HTML Full Course - Build a Website Tutorial
+https://www.youtube.com/watch?v=pQN-pnXPaVg
+
+CSS Full Course - Includes Flexbox and CSS Grid Tutorials
+https://www.youtube.com/watch?v=ieTHC78giGQ
+
+CSS Flexbox Course
+https://www.youtube.com/watch?v=-Wlt8NRtOpo
+
+CSS Grid Course
+https://www.youtube.com/watch?v=t6CBKf8K_Ac
+
+Build a Tribute Page
+https://www.youtube.com/watch?v=qqrnzmqCGDw
+
+Learn JavaScript - Full Course for Beginners
+https://www.youtube.com/watch?v=PkZNo7MFNFg
+
+JavaScript ES6, ES7, ES8: Learn to Code on the Bleeding Edge (Full Course)
+https://www.youtube.com/watch?v=nZ1DMMsyVyI
+
+Learn Regular Expressions (Regex) - Crash Course for Beginners
+https://www.youtube.com/watch?v=ZfQFUJhPqMM
+
+Debugging JavaScript - Are you doing it wrong?
+https://www.youtube.com/watch?v=ABlaMXkUwzY
+
+Debugging Node.js with Paul Irish
+https://www.youtube.com/watch?v=F1VZj-zqnG4
+
+JavaScript and the HTML DOM - Tutorial Playlist
+https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO
+
+Data Structures and Algorithms in JavaScript - Full Course for Beginners
+https://www.youtube.com/watch?v=t2CEgPsws3U
+
+Intro to Object Oriented Programming - Crash Course
+https://www.youtube.com/watch?v=SiBw7os-_zI
+
+JavaScript Classes Tutorial
+https://www.youtube.com/watch?v=2ZphE5HcQPQ
+
+Functional Programming in ES6 with Nathan and Geoff
+https://www.youtube.com/watch?v=5iDwYK2frNQ
+
+Learn Bootstrap by creating a custom admin theme - Intermediate Tutorial
+https://www.youtube.com/watch?v=RyTRgQ7k6QE
+
+jQuery vs vanilla JavaScript - Beau teaches JavaScript
+https://www.youtube.com/watch?v=X65s7WQLWJY
+
+Sass Tutorial for Beginners - CSS With Superpowers
+https://www.youtube.com/watch?v=_a5j7KoflTs
+
+Git & GitHub
+https://www.youtube.com/watch?v=vR-y_2zWrIE&list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF
+
+Git and GitHub for Beginners - Crash Course
+https://www.youtube.com/watch?v=RGOj5yH7evk
+
+Learn React JS - Full Course for Beginners - Tutorial 2019
+https://www.youtube.com/watch?v=DLX62G4lc44
+// https://scrimba.com/learn/learnreact
+
+==============================================================
+
+React Tutorial: Build an e-commerce site from scratch using React and Netlify
+https://www.youtube.com/watch?v=wPQ1-33teR4
+https://github.com/john-smilga/react-phone-e-commerce-project
+5:30:00
+
+React Tutorials Playlist
+https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
+
+freecodecamp.org react
+https://www.youtube.com/results?search_query=freecodecamp.org+react
+
+APIs
+Postman
+AWS
+Azure
+Adobe Experience Manager
+
