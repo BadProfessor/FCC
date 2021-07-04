@@ -142,13 +142,17 @@ Learn React JS - Full Course for Beginners - Tutorial 2019
 https://www.youtube.com/watch?v=DLX62G4lc44
 // https://scrimba.com/learn/learnreact
 
-==============================================================
-
 React Tutorial: Build an e-commerce site from scratch using React and Netlify
 https://www.youtube.com/watch?v=wPQ1-33teR4
 https://github.com/john-smilga/react-phone-e-commerce-project
-6:00:00
-Make Paypal Developer account
+
+==============================================================
+
+React Project Tutorial - Game of Life
+https://www.youtube.com/watch?v=PM0_Er3SvFQ&list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC&index=4
+https://github.com/beaucarnes/fcc-project-tutorials/tree/master/gameoflife
+0:00
+Deploy on Netlify
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
