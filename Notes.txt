@@ -149,7 +149,7 @@ https://github.com/john-smilga/react-phone-e-commerce-project
 ==============================================================
 
 React Project Tutorial - Game of Life
-https://www.youtube.com/watch?v=PM0_Er3SvFQ&list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC&index=4
+https://www.youtube.com/watch?v=PM0_Er3SvFQ
 https://github.com/beaucarnes/fcc-project-tutorials/tree/master/gameoflife
 0:00
 Deploy on Netlify
@@ -160,9 +160,7 @@ https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
 freecodecamp.org react
 https://www.youtube.com/results?search_query=freecodecamp.org+react
 
-APIs
-Postman
-AWS
-Azure
-Adobe Experience Manager
+APIs/Postman
+AWS/Azure
+Adobe Experience Manager/Adobe Experience Cloud
 
