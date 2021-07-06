@@ -152,13 +152,26 @@ https://github.com/beaucarnes/fcc-project-tutorials/tree/master/gameoflife
 
 ==============================================================
 
-React Tutorials Playlist
-https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
+AWS Basics for Beginners - Full Course
+https://www.youtube.com/watch?v=ulprqHHWlng
+https://digitalcloud.training/aws-basics-for-beginners-course-downloads/
+00:00
 
 freecodecamp.org react
 https://www.youtube.com/results?search_query=freecodecamp.org+react
 
-APIs/Postman
+React Tutorials Playlist
+https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
+
+Node.js Tutorials Playlist
+https://www.youtube.com/watch?v=RLtyhwFtXQA&list=PLWKjhJtqVAbmGQoa3vFjeRbRADAOC9drk
+
+JavaScript Tutorials Playlist
+https://www.youtube.com/watch?v=PkZNo7MFNFg&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V
+
+==============================================================
+
 AWS
+APIs/Postman
 Adobe Experience Manager
 
