@@ -146,13 +146,11 @@ React Tutorial: Build an e-commerce site from scratch using React and Netlify
 https://www.youtube.com/watch?v=wPQ1-33teR4
 https://github.com/john-smilga/react-phone-e-commerce-project
 
-==============================================================
-
 React Project Tutorial - Game of Life
 https://www.youtube.com/watch?v=PM0_Er3SvFQ
 https://github.com/beaucarnes/fcc-project-tutorials/tree/master/gameoflife
-38:00
-Deploy on Netlify
+
+==============================================================
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
