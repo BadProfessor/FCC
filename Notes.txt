@@ -161,6 +161,6 @@ freecodecamp.org react
 https://www.youtube.com/results?search_query=freecodecamp.org+react
 
 APIs/Postman
-AWS/Azure
-Adobe Experience Manager/Adobe Experience Cloud
+AWS
+Adobe Experience Manager
 

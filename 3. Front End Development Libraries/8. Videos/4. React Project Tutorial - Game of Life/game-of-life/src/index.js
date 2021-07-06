@@ -22,11 +22,11 @@ class Box extends React.Component {
 class Grid extends React.Component {
   render() {
     const width = this.props.cols * 14;
-    var rowsArr = [];
+    let rowsArr = [];
 
-    var boxClass = '';
-    for (var i = 0; i < this.props.rows; i++) {
-      for (var j = 0; j < this.props.cols; j++) {
+    let boxClass = '';
+    for (let i = 0; i < this.props.rows; i++) {
+      for (let j = 0; j < this.props.cols; j++) {
         let boxId = i + '_' + j;
 
         boxClass = this.props.gridFull[i][j] ? 'box on' : 'box off';
@@ -60,36 +60,56 @@ class Buttons extends React.Component {
     return (
       <div className="center">
         <ButtonToolbar>
-          <button className="btn btn-default" onClick={this.props.playButton}>
+          <button
+            type="button"
+            className="btn btn-primary mr-2"
+            onClick={this.props.playButton}
+          >
             Play
           </button>
-          <button className="btn btn-default" onClick={this.props.pauseButton}>
+          <button
+            type="button"
+            className="btn btn-primary mr-2"
+            onClick={this.props.pauseButton}
+          >
             Pause
           </button>
-          <button className="btn btn-default" onClick={this.props.clear}>
+          <button
+            type="button"
+            className="btn btn-primary mr-2"
+            onClick={this.props.clear}
+          >
             Clear
           </button>
-          <button className="btn btn-default" onClick={this.props.slow}>
+          <button
+            type="button"
+            className="btn btn-primary mr-2"
+            onClick={this.props.slow}
+          >
             Slow
           </button>
-          <button className="btn btn-default" onClick={this.props.fast}>
+          <button
+            type="button"
+            className="btn btn-primary mr-2"
+            onClick={this.props.fast}
+          >
             Fast
           </button>
-          <button className="btn btn-default" onClick={this.props.seed}>
+          <button
+            type="button"
+            className="btn btn-primary mr-2"
+            onClick={this.props.seed}
+          >
             Seed
           </button>
-
           <DropdownButton
             title="Grid Size"
-            className="btn btn-default"
-            onSelect={this.handleSelect}
             id="size-menu"
+            onSelect={this.handleSelect}
           >
-            <Dropdown.Menu>
-              <Dropdown.Item eventKey="1">20x10</Dropdown.Item>
-              <Dropdown.Item eventKey="2">50x30</Dropdown.Item>
-              <Dropdown.Item eventKey="3">70x50</Dropdown.Item>
-            </Dropdown.Menu>
+            <Dropdown.Item eventKey="1">20x10</Dropdown.Item>
+            <Dropdown.Item eventKey="2">50x30</Dropdown.Item>
+            <Dropdown.Item eventKey="3">70x50</Dropdown.Item>
           </DropdownButton>
         </ButtonToolbar>
       </div>
@@ -154,9 +174,11 @@ class Main extends React.Component {
   };
 
   clear = () => {
-    var grid = Array(this.rows)
+    this.pauseButton();
+    let grid = Array(this.rows)
       .fill()
       .map(() => Array(this.cols).fill(false));
+
     this.setState({
       gridFull: grid,
       generation: 0,
@@ -172,6 +194,10 @@ class Main extends React.Component {
       case '2':
         this.cols = 50;
         this.rows = 30;
+        break;
+      case '3':
+        this.cols = 70;
+        this.rows = 50;
         break;
       default:
         this.cols = 70;
@@ -208,6 +234,7 @@ class Main extends React.Component {
 
   componentDidMount() {
     this.seed();
+    // // to auto-play
     // this.playButton();
   }
 
