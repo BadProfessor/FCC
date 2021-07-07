@@ -155,7 +155,7 @@ https://github.com/beaucarnes/fcc-project-tutorials/tree/master/gameoflife
 AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
 https://digitalcloud.training/aws-basics-for-beginners-course-downloads/
-00:00
+43:00
 
 freecodecamp.org react
 https://www.youtube.com/results?search_query=freecodecamp.org+react
@@ -174,4 +174,5 @@ https://www.youtube.com/watch?v=PkZNo7MFNFg&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-
 AWS
 APIs/Postman
 Adobe Experience Manager
+React(Express.js, MongoDB)
 
