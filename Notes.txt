@@ -161,7 +161,7 @@ Learn React with Kent C. Dodds
 https://www.youtube.com/watch?v=zthIUs2w_c8&list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC&index=5
 https://github.com/kentcdodds/learn-react
 https://learn-reactjs.netlify.com/
-00:00
+35:00
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
