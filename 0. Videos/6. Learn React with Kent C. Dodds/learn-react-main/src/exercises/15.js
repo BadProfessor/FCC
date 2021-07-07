@@ -25,8 +25,7 @@ function App() {
         +
       </button>
       {items.map(i => (
-        // 🐨 this div needs a key. Set it to i.id
-        <div>
+        <div key={i.id}>
           <button onClick={() => removeItem(i)}>-</button>
           {i.value}:
           <input defaultValue={i.value} />
@@ -35,13 +34,6 @@ function App() {
     </div>
   )
 }
-
-////////////////////////////////////////////////////////////////////
-//                                                                //
-//                 Don't make changes below here.                 //
-// But do look at it to see how your code is intended to be used. //
-//                                                                //
-////////////////////////////////////////////////////////////////////
 
 function Usage() {
   return <App />

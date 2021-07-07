@@ -1,10 +1,7 @@
 // Graph: Lazy-loading with React.lazy
 import React from 'react'
-// 🐨 remove this Graph import 💣
-import Graph from '../graph'
 
-// 🐨 use React.lazy to get the Graph component via a dynamic import
-// 📜 https://reactjs.org/docs/code-splitting.html#reactlazy
+const Graph = React.lazy(() => import('../graph'))
 
 function GraphShower() {
   const [showGraph, setShowGraph] = React.useState(false)
@@ -19,28 +16,17 @@ function GraphShower() {
         {' show Graph'}
       </label>
       <div>
-        {/*
-          🐨 You need to wrap this in <React.Suspense> with a "fallback" prop
-          so you can tell React what to show while the component code is being
-          loaded
-          📜 https://reactjs.org/docs/code-splitting.html#suspense
-        */}
-        {showGraph ? (
-          <div className="totally-centered">
-            <Graph />
-          </div>
-        ) : null}
+        <React.Suspense fallback="loading...">
+          {showGraph ? (
+            <div className="totally-centered">
+              <Graph />
+            </div>
+          ) : null}
+        </React.Suspense>
       </div>
     </div>
   )
 }
-
-////////////////////////////////////////////////////////////////////
-//                                                                //
-//                 Don't make changes below here.                 //
-// But do look at it to see how your code is intended to be used. //
-//                                                                //
-////////////////////////////////////////////////////////////////////
 
 function Usage() {
   return <GraphShower />
