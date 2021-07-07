@@ -157,8 +157,11 @@ https://www.youtube.com/watch?v=ulprqHHWlng
 https://digitalcloud.training/aws-basics-for-beginners-course-downloads/
 43:00
 
-freecodecamp.org react
-https://www.youtube.com/results?search_query=freecodecamp.org+react
+Learn React with Kent C. Dodds
+https://www.youtube.com/watch?v=zthIUs2w_c8&list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC&index=5
+https://github.com/kentcdodds/learn-react
+https://learn-reactjs.netlify.com/
+00:00
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
