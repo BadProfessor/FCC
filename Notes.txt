@@ -164,6 +164,7 @@ https://digitalcloud.training/aws-basics-for-beginners-course-downloads/
 
 Conquering freeCodeCamp - Visualize Data with a Bar Chart - Live Stream #36
 https://www.youtube.com/watch?v=sKZVaqCEvNE
+https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-bar-chart
 https://codepen.io/badprofessor/pen/jOmrbZM?editors=0010
 https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json
 30:00
