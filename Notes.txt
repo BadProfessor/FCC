@@ -150,6 +150,11 @@ React Project Tutorial - Game of Life
 https://www.youtube.com/watch?v=PM0_Er3SvFQ
 https://github.com/beaucarnes/fcc-project-tutorials/tree/master/gameoflife
 
+Learn React with Kent C. Dodds
+https://www.youtube.com/watch?v=zthIUs2w_c8&list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC&index=5
+https://github.com/kentcdodds/learn-react
+https://learn-reactjs.netlify.com/
+
 ==============================================================
 
 AWS Basics for Beginners - Full Course
@@ -157,11 +162,11 @@ https://www.youtube.com/watch?v=ulprqHHWlng
 https://digitalcloud.training/aws-basics-for-beginners-course-downloads/
 43:00
 
-Learn React with Kent C. Dodds
-https://www.youtube.com/watch?v=zthIUs2w_c8&list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC&index=5
-https://github.com/kentcdodds/learn-react
-https://learn-reactjs.netlify.com/
-35:30
+Conquering freeCodeCamp - Visualize Data with a Bar Chart - Live Stream #36
+https://www.youtube.com/watch?v=sKZVaqCEvNE
+https://codepen.io/badprofessor/pen/jOmrbZM?editors=0010
+https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json
+30:00
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
