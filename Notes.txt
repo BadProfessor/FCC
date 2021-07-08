@@ -160,7 +160,7 @@ https://learn-reactjs.netlify.com/
 AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
 https://digitalcloud.training/aws-basics-for-beginners-course-downloads/
-1:00:00
+1:16:00
 
 Conquering freeCodeCamp - Visualize Data with a Bar Chart - Live Stream #36
 https://www.youtube.com/watch?v=sKZVaqCEvNE
