@@ -168,7 +168,7 @@ https://www.freecodecamp.org/learn/data-visualization/data-visualization-project
 https://codepen.io/FlorinPop17/pen/QWbOray?editors=0010
 https://codepen.io/badprofessor/pen/jOmrbZM?editors=0010
 https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json
-45:00
+50:00
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC

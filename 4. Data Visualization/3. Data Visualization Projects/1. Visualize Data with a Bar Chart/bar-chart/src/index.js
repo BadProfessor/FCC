@@ -15,6 +15,9 @@ fetch(
 function createStuff(data) {
   const width = 800;
   const height = 500;
+
+  const padding = 30;
+
   const barWidth = width / data.length;
 
   const yScale = d3
@@ -44,7 +47,13 @@ function createStuff(data) {
     .attr('height', (d) => yScale(d[1]) + 'px');
 
   //create axis
-  const xAxis = d3.axisBottom(yScale);
+  const xAxis = d3.axisBottom(xScale);
+  const yAxis = d3.axisBottom(yScale);
+
+  svg
+    .append('g')
+    .attr('transform', `translate(${padding}px, ${height - padding}px)`)
+    .call(xAxis);
 }
 
 // // needed for React
