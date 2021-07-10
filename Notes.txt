@@ -155,20 +155,18 @@ https://www.youtube.com/watch?v=zthIUs2w_c8&list=PLWKjhJtqVAbkArDMazoARtNz1aMwNW
 https://github.com/kentcdodds/learn-react
 https://learn-reactjs.netlify.com/
 
-==============================================================
-
-AWS Basics for Beginners - Full Course
-https://www.youtube.com/watch?v=ulprqHHWlng
-https://digitalcloud.training/aws-basics-for-beginners-course-downloads/
-1:16:00
-
+===============================================================
 Conquering freeCodeCamp - Visualize Data with a Bar Chart - Live Stream #36
 https://www.youtube.com/watch?v=sKZVaqCEvNE
 https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-bar-chart
 https://codepen.io/FlorinPop17/pen/QWbOray?editors=0010
 https://codepen.io/badprofessor/pen/jOmrbZM?editors=0010
 https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json
-50:00
+
+AWS Basics for Beginners - Full Course
+https://www.youtube.com/watch?v=ulprqHHWlng
+https://digitalcloud.training/aws-basics-for-beginners-course-downloads/
+1:16:00
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
