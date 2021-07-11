@@ -163,7 +163,7 @@ https://codepen.io/FlorinPop17/pen/QWbOray?editors=0010
 https://codepen.io/badprofessor/pen/jOmrbZM?editors=0010
 https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json
 npm i --save d3@5.16.0.
-1:30:00
+2:00:00
 
 AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
