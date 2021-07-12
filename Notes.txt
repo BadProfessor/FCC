@@ -161,7 +161,7 @@ https://www.freecodecamp.org/learn/data-visualization/data-visualization-project
 https://codepen.io/FlorinPop17/pen/QWbOray
 https://codepen.io/badprofessor/pen/jOmrbZM
 https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json
-npm i --save d3@5.16.0.
+npm i --save d3@5.16.0
 
 ===============================================================
 
@@ -171,6 +171,7 @@ https://www.freecodecamp.org/learn/data-visualization/data-visualization-project
 https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json
 https://codepen.io/FlorinPop17/pen/zYGPXXW
 https://codepen.io/badprofessor/pen/qBmqZGa
+npm i --save d3@5.16.0
 
 
 

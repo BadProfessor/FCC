@@ -88,7 +88,7 @@ function createStuff(data) {
 // // needed for React
 // import React from 'react';
 // import ReactDOM from 'react-dom';
-// // import './index.css';
+//
 //
 // ReactDOM.render(
 //   <React.StrictMode>
