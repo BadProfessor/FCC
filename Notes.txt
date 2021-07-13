@@ -177,7 +177,7 @@ npm i --save d3@5.16.0
 AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
 https://digitalcloud.training/aws-basics-for-beginners-course-downloads/
-2:00:00
+2:30:00
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
