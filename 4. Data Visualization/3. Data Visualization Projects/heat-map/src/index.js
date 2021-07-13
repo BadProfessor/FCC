@@ -2,35 +2,74 @@ import * as d3 from 'd3';
 
 const tooltip = document.getElementById('tooltip');
 
+const colors = [
+  '#67001f',
+  '#b2182b',
+  '#d6604d',
+  '#f4a582',
+  '#fddbc7',
+  '#f7f7f7',
+  '#d1e5f0',
+  '#92c5de',
+  '#4393c3',
+  '#2166ac',
+  '#053061',
+];
+
+const months = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+];
+
 fetch(
-  'https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json'
+  'https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/global-temperature.json'
 )
   .then((res) => res.json())
   .then((res) => {
-    const { data } = res;
+    const { baseTemperature, monthlyVariance } = res;
 
-    createStuff(data.map((d) => [d[0], d[1]]));
+    createStuff(
+      monthlyVariance.map((d) => ({
+        ...d,
+        temp: baseTemperature - d.variance,
+      }))
+    );
   });
 
 function createStuff(data) {
   const width = 800;
   const height = 400;
-  const padding = 40;
+  const padding = 60;
 
-  const barWidth = width / data.length;
+  const cellHeight = (height - 2 * padding) / 12;
+  const cellWidth = width / Math.floor(data.length / 12);
+
+  // console.log(data);
 
   const yScale = d3
     .scaleLinear()
-    .domain([0, d3.max(data, (d) => d[1])])
-    .range([height - padding, padding]);
+    .domain([0, 11])
+    .range([padding, height - padding]);
 
   const xScale = d3
     .scaleTime()
-    .domain([
-      d3.min(data, (d) => new Date(d[0])),
-      d3.max(data, (d) => new Date(d[0])),
-    ])
+    .domain([d3.min(data, (d) => d.year), d3.max(data, (d) => d.year)])
     .range([padding, width - padding]);
+
+  const tempScale = d3
+    .scaleLinear()
+    .domain([d3.min(data, (d) => d.temp), d3.max(data, (d) => d.temp)])
+    .range([0, 10]);
 
   const svg = d3
     .select('#container')
@@ -43,25 +82,24 @@ function createStuff(data) {
     .data(data)
     .enter()
     .append('rect')
-    .attr('class', 'bar')
-    .attr('data-date', (d) => d[0])
-    .attr('data-gdp', (d) => d[1])
-    .attr('x', (d) => xScale(new Date(d[0])))
-    .attr('y', (d) => yScale(d[1]))
-    .attr('width', barWidth)
-    .attr('height', (d) => height - yScale(d[1]) - padding)
+    .attr('class', 'cell')
+    .attr('data-month', (d) => d.month - 1)
+    .attr('data-year', (d) => d.year)
+    .attr('data-temp', (d) => d.temp)
+    .attr('fill', (d) => colors[Math.floor(tempScale(d.temp))])
+    .attr('x', (d) => xScale(d.year))
+    .attr('y', (d) => yScale(d.month - 1) - cellHeight)
+    .attr('width', cellWidth)
+    .attr('height', cellHeight)
     .on('mouseover', (d, i) => {
       tooltip.classList.add('show');
-
-      tooltip.style.left = i * barWidth + padding * 2 + 'px';
-
-      tooltip.style.top = height - padding * 4 + 'px';
-
-      tooltip.setAttribute('data-date', d[0]);
+      tooltip.style.left = xScale(d.year) - 60 + 'px';
+      tooltip.style.top = yScale(d.month - 1) - 60 + 'px';
+      tooltip.setAttribute('data-year', d.year);
 
       tooltip.innerHTML = `
-        <small>${d[0]}</small>
-        $${d[1]} billions
+        <p>${d.year} - ${months[d.month - 1]}</p>
+        <p>${d.temp}℃</p>
       `;
     })
     .on('mouseout', () => {
@@ -69,8 +107,12 @@ function createStuff(data) {
     });
 
   // create axis
-  const xAxis = d3.axisBottom(xScale);
-  const yAxis = d3.axisLeft(yScale);
+  const xAxis = d3.axisBottom(xScale).tickFormat(d3.format('d'));
+  const yAxis = d3.axisLeft(yScale).tickFormat((month) => {
+    const date = new Date(0);
+    date.setUTCMonth(month);
+    return d3.timeFormat('%B')(date);
+  });
 
   svg
     .append('g')
@@ -81,20 +123,27 @@ function createStuff(data) {
   svg
     .append('g')
     .attr('id', 'y-axis')
-    .attr('transform', `translate(${padding}, 0)`)
+    .attr('transform', `translate(${padding}, ${-cellHeight})`)
     .call(yAxis);
-}
 
-// // needed for React
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-//
-//
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <div>
-//       <p>Hello from index.js</p>
-//     </div>
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
+  // create the legend
+  const legendWidth = 200;
+  const legendHeight = 50;
+
+  const legendRectWidth = legendWidth / colors.length;
+  const legend = d3
+    .select('body')
+    .append('svg')
+    .attr('id', 'legend')
+    .attr('width', legendWidth)
+    .attr('height', legendHeight)
+    .selectAll('rect')
+    .data(colors)
+    .enter()
+    .append('rect')
+    .attr('x', (_, i) => i * legendRectWidth)
+    .attr('y', 0)
+    .attr('width', legendRectWidth)
+    .attr('height', legendHeight)
+    .attr('fill', (c) => c);
+}
