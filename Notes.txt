@@ -176,8 +176,6 @@ https://codepen.io/FlorinPop17/pen/zYGPXXW
 https://codepen.io/badprofessor/pen/qBmqZGa
 npm i --save d3@5.16.0
 
-===============================================================
-
 Conquering freeCodeCamp - Visualize Data with a Heat Map - Live Stream #38
 https://www.youtube.com/watch?v=ugboq8WA7O4
 https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-heat-map
@@ -185,8 +183,9 @@ https://codepen.io/FlorinPop17/pen/ZEGaNxj
 https://codepen.io/badprofessor/pen/zYwogpR
 https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json
 npm i --save d3@5.16.0
-50:00
+FAST_REFRESH=false
 
+===============================================================
 
 AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
