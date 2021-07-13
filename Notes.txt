@@ -187,12 +187,20 @@ FAST_REFRESH=false
 
 ===============================================================
 
+Conquering freeCodeCamp - Visualize Data with a Choropleth Map - Live Stream #39
+https://www.youtube.com/watch?v=j2UdrV8-3yw
+https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-choropleth-map
+https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json
+https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json
+https://codepen.io/FlorinPop17/pen/OJVzWjQ
+https://codepen.io/badprofessor/pen/dyWNGBE
+npm i --save d3@5.16.0
+FAST_REFRESH=false
+
 AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
 https://digitalcloud.training/aws-basics-for-beginners-course-downloads/
 2:30:00
-
-
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
