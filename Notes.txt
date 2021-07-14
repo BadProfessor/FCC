@@ -196,6 +196,7 @@ https://codepen.io/FlorinPop17/pen/OJVzWjQ
 https://codepen.io/badprofessor/pen/dyWNGBE
 npm i --save d3@5.16.0
 FAST_REFRESH=false
+30:00
 
 AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng

@@ -1,36 +1,40 @@
 import * as d3 from 'd3';
+import * as topojson from 'topojson';
 
 const tooltip = document.getElementById('tooltip');
 
-fetch(
-  'https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json'
-)
-  .then((res) => res.json())
-  .then((res) => {
-    const { data } = res;
+async function run() {
+  const eduResp = await fetch(
+    'https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json'
+  );
+  const educations = await eduResp.json();
 
-    createStuff(data.map((d) => [d[0], d[1]]));
-  });
+  const countiesResp = await fetch(
+    'https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json'
+  );
+  const counties = await countiesResp.json();
 
-function createStuff(data) {
-  const width = 800;
-  const height = 400;
-  const padding = 40;
+  const width = 960;
+  const height = 600;
 
-  const barWidth = width / data.length;
+  const path = d3.geoPath();
 
-  const yScale = d3
-    .scaleLinear()
-    .domain([0, d3.max(data, (d) => d[1])])
-    .range([height - padding, padding]);
+  const data = topojson.feature(counties, counties.objects.counties).features;
 
-  const xScale = d3
-    .scaleTime()
-    .domain([
-      d3.min(data, (d) => new Date(d[0])),
-      d3.max(data, (d) => new Date(d[0])),
-    ])
-    .range([padding, width - padding]);
+  const minEdu = d3.min(educations, (edu) => edu.bachelorsOrHigher);
+  const maxEdu = d3.max(educations, (edu) => edu.bachelorsOrHigher);
+  const step = (maxEdu - minEdu) / 8;
+
+  const colorsScale = d3
+    .scaleThreshold()
+    .domain(d3.range(minEdu, maxEdu, step))
+    .range(d3.schemePurples[9]);
+
+  const colors = [];
+
+  for (let i = minEdu; i <= maxEdu; i += step) {
+    colors.push(i);
+  }
 
   const svg = d3
     .select('#container')
@@ -39,48 +43,64 @@ function createStuff(data) {
     .attr('height', height);
 
   svg
-    .selectAll('rect')
+    .append('g')
+    .selectAll('path')
     .data(data)
     .enter()
-    .append('rect')
-    .attr('class', 'bar')
-    .attr('data-date', (d) => d[0])
-    .attr('data-gdp', (d) => d[1])
-    .attr('x', (d) => xScale(new Date(d[0])))
-    .attr('y', (d) => yScale(d[1]))
-    .attr('width', barWidth)
-    .attr('height', (d) => height - yScale(d[1]) - padding)
+    .append('path')
+    .attr('class', 'county')
+    .attr('fill', (d) =>
+      colorsScale(educations.find((edu) => edu.fips === d.id).bachelorsOrHigher)
+    )
+    .attr('d', path)
+    .attr('data-fips', (d) => d.id)
+    .attr(
+      'data-education',
+      (d) => educations.find((edu) => edu.fips === d.id).bachelorsOrHigher
+    )
     .on('mouseover', (d, i) => {
+      const { coordinates } = d.geometry;
+      const [x, y] = coordinates[0][0];
+
+      const education = educations.find((edu) => edu.fips === d.id);
+
       tooltip.classList.add('show');
-
-      tooltip.style.left = i * barWidth + padding * 2 + 'px';
-
-      tooltip.style.top = height - padding * 4 + 'px';
-
-      tooltip.setAttribute('data-date', d[0]);
+      tooltip.style.left = x - 50 + 'px';
+      tooltip.style.top = y - 50 + 'px';
+      tooltip.setAttribute('data-education', education.bachelorsOrHigher);
 
       tooltip.innerHTML = `
-        <small>${d[0]}</small>
-        $${d[1]} billions
+        <p>${education.area_name} - ${education.state}</p>
+        <p>${education.bachelorsOrHigher}%</p>
       `;
     })
     .on('mouseout', () => {
       tooltip.classList.remove('show');
     });
 
-  // create axis
-  const xAxis = d3.axisBottom(xScale);
-  const yAxis = d3.axisLeft(yScale);
+  // create the legend
+  const legendWidth = 200;
+  const legendHeight = 30;
 
-  svg
-    .append('g')
-    .attr('id', 'x-axis')
-    .attr('transform', `translate(0, ${height - padding})`)
-    .call(xAxis);
+  const legendRectWidth = legendWidth / colors.length;
+  const legend = d3
+    .select('#container')
+    .append('svg')
+    .attr('id', 'legend')
+    .attr('class', 'legend')
+    .attr('width', legendWidth)
+    .attr('height', legendHeight);
 
-  svg
-    .append('g')
-    .attr('id', 'y-axis')
-    .attr('transform', `translate(${padding}, 0)`)
-    .call(yAxis);
+  legend
+    .selectAll('rect')
+    .data(colors)
+    .enter()
+    .append('rect')
+    .attr('x', (_, i) => i * legendRectWidth)
+    .attr('y', 0)
+    .attr('width', legendRectWidth)
+    .attr('height', legendHeight)
+    .attr('fill', (c) => colorsScale(c));
 }
+
+run();
