@@ -181,7 +181,6 @@ FAST_REFRESH=false
 
 AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
-https://digitalcloud.training/aws-basics-for-beginners-course-downloads/
 2:30:00
 
 React Tutorials Playlist
