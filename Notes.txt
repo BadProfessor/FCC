@@ -2,8 +2,7 @@ JS
 'use strict';
 
 # hot refresh
-# create .env
-# paste
+# .env
 FAST_REFRESH=false
 
 NODE
@@ -172,19 +171,8 @@ https://www.youtube.com/watch?v=j2UdrV8-3yw
 
 ===============================================================
 
-Conquering freeCodeCamp - Visualize Data with a Treemap Diagram - Live Stream #40
+Conquering freeCodeCamp - Visualize Data with a Treemap Diagram
 https://www.youtube.com/watch?v=DB_DunPM7wU
-https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-treemap-diagram
-Kickstarter Pledges: https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json
-Movie Sales: https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json
-Video Game Sales: https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json
-https://codepen.io/badprofessor/pen/vYmxxLj
-https://codepen.io/FlorinPop17/pen/mdJpmLV
-npm i --save d3@5.16.0
-FAST_REFRESH=false
-
-
-
 
 AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
