@@ -170,10 +170,6 @@ Conquering freeCodeCamp - Visualize Data with a Choropleth Map
 https://www.youtube.com/watch?v=j2UdrV8-3yw
 
 ===============================================================
-
-Conquering freeCodeCamp - Visualize Data with a Treemap Diagram
-https://www.youtube.com/watch?v=DB_DunPM7wU
-
 AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
 2:30:00
