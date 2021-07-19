@@ -176,12 +176,12 @@ https://www.youtube.com/watch?v=ulprqHHWlng
 
 Conquering freeCodeCamp - Managing Packages with NPM - Live Stream #41
 https://www.youtube.com/watch?v=yMvflePvMzs
-01:00
+07:00
 
 
 React Tutorial: Weather App with RESTful APIs
 https://www.youtube.com/watch?v=cdBvSlVCOXw
-07:00
+00:00
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
