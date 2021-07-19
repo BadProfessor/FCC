@@ -174,9 +174,14 @@ AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
 03:00:00
 
+Conquering freeCodeCamp - Managing Packages with NPM - Live Stream #41
+https://www.youtube.com/watch?v=yMvflePvMzs
+01:00
+
+
 React Tutorial: Weather App with RESTful APIs
 https://www.youtube.com/watch?v=cdBvSlVCOXw
-00:00:00
+07:00
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
