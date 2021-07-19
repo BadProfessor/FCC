@@ -172,11 +172,11 @@ https://www.youtube.com/watch?v=j2UdrV8-3yw
 ===============================================================
 AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
-02:42:30
+03:00:00
 
 React Tutorial: Weather App with RESTful APIs
 https://www.youtube.com/watch?v=cdBvSlVCOXw
-04:30
+00:00:00
 
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
