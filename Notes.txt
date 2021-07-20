@@ -169,14 +169,13 @@ https://www.youtube.com/watch?v=ugboq8WA7O4
 Conquering freeCodeCamp - Visualize Data with a Choropleth Map
 https://www.youtube.com/watch?v=j2UdrV8-3yw
 
+Conquering freeCodeCamp - Managing Packages with NPM - Live Stream #41
+https://www.youtube.com/watch?v=yMvflePvMzs
+
 ===============================================================
 AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
 03:30:00
-
-Conquering freeCodeCamp - Managing Packages with NPM - Live Stream #41
-https://www.youtube.com/watch?v=yMvflePvMzs
-00:07:00
 
 React Tutorial: Weather App with RESTful APIs
 https://www.youtube.com/watch?v=cdBvSlVCOXw

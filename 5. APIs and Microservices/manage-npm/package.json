@@ -2,6 +2,14 @@
   "name": "fcc-learn-npm-package-json",
   "author": "JJ",
   "description": "This is a test project and package.json for FCC",
+  "keywords": [
+    "test",
+    "freecodecamp",
+    "FCC",
+    "npm"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
   "dependencies": {
     "express": "^4.14.0"
   },
