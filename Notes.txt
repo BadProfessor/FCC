@@ -42,18 +42,6 @@ git checkout <branch name>                                      //switch to a br
 git merge   <branch name>                                       //merge the branches
 git branch -d <branch name>                                     //delete branch
 
-HEROKU
-heroku login                            //login to heroku
-heroku create                           //creates the application in heroku
-heroku keys:add                         //add the ssh keys to heroku
-git push heroku master                  //push the changes to heroku master branch
-heroku run rails db:migrate             //generate a table in heroku
-heroku rename <placeholder>             //rename your app
-https://blockfuzz.herokuapp.com/        //heroku app link
-https://git.heroku.com/blockfuzz.git    //heroku git link
-sudo snap install --classic heroku      //install heroku
-heroku run rails console                //run rails console in heroku
-
 PYTHON
 #Install Python VS extension
 #Install (copy/paste) the .venv environment
@@ -82,93 +70,6 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 
-HTML Full Course - Build a Website Tutorial
-https://www.youtube.com/watch?v=pQN-pnXPaVg
-
-CSS Full Course - Includes Flexbox and CSS Grid Tutorials
-https://www.youtube.com/watch?v=ieTHC78giGQ
-
-CSS Flexbox Course
-https://www.youtube.com/watch?v=-Wlt8NRtOpo
-
-CSS Grid Course
-https://www.youtube.com/watch?v=t6CBKf8K_Ac
-
-Build a Tribute Page
-https://www.youtube.com/watch?v=qqrnzmqCGDw
-
-Learn JavaScript - Full Course for Beginners
-https://www.youtube.com/watch?v=PkZNo7MFNFg
-
-JavaScript ES6, ES7, ES8: Learn to Code on the Bleeding Edge (Full Course)
-https://www.youtube.com/watch?v=nZ1DMMsyVyI
-
-Learn Regular Expressions (Regex) - Crash Course for Beginners
-https://www.youtube.com/watch?v=ZfQFUJhPqMM
-
-Debugging JavaScript - Are you doing it wrong?
-https://www.youtube.com/watch?v=ABlaMXkUwzY
-
-Debugging Node.js with Paul Irish
-https://www.youtube.com/watch?v=F1VZj-zqnG4
-
-JavaScript and the HTML DOM - Tutorial Playlist
-https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO
-
-Data Structures and Algorithms in JavaScript - Full Course for Beginners
-https://www.youtube.com/watch?v=t2CEgPsws3U
-
-Intro to Object Oriented Programming - Crash Course
-https://www.youtube.com/watch?v=SiBw7os-_zI
-
-JavaScript Classes Tutorial
-https://www.youtube.com/watch?v=2ZphE5HcQPQ
-
-Functional Programming in ES6 with Nathan and Geoff
-https://www.youtube.com/watch?v=5iDwYK2frNQ
-
-Learn Bootstrap by creating a custom admin theme - Intermediate Tutorial
-https://www.youtube.com/watch?v=RyTRgQ7k6QE
-
-jQuery vs vanilla JavaScript - Beau teaches JavaScript
-https://www.youtube.com/watch?v=X65s7WQLWJY
-
-Sass Tutorial for Beginners - CSS With Superpowers
-https://www.youtube.com/watch?v=_a5j7KoflTs
-
-Git & GitHub
-https://www.youtube.com/watch?v=vR-y_2zWrIE&list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF
-
-Git and GitHub for Beginners - Crash Course
-https://www.youtube.com/watch?v=RGOj5yH7evk
-
-Learn React JS - Full Course for Beginners - Tutorial 2019
-https://www.youtube.com/watch?v=DLX62G4lc44
-// https://scrimba.com/learn/learnreact
-
-React Tutorial: Build an e-commerce site from scratch using React and Netlify
-https://www.youtube.com/watch?v=wPQ1-33teR4
-https://github.com/john-smilga/react-phone-e-commerce-project
-
-React Project Tutorial - Game of Life
-https://www.youtube.com/watch?v=PM0_Er3SvFQ
-https://github.com/beaucarnes/fcc-project-tutorials/tree/master/gameoflife
-
-Learn React with Kent C. Dodds
-https://www.youtube.com/watch?v=zthIUs2w_c8&
-
-Conquering freeCodeCamp - Visualize Data with a Bar Chart
-https://www.youtube.com/watch?v=sKZVaqCEvNE
-
-Conquering freeCodeCamp - Visualize Data with a Scatterplot Graph
-https://www.youtube.com/watch?v=eSd47rSgfJw
-
-Conquering freeCodeCamp - Visualize Data with a Heat Map
-https://www.youtube.com/watch?v=ugboq8WA7O4
-
-Conquering freeCodeCamp - Visualize Data with a Choropleth Map
-https://www.youtube.com/watch?v=j2UdrV8-3yw
-
 Conquering freeCodeCamp - Managing Packages with NPM - Live Stream #41
 https://www.youtube.com/watch?v=yMvflePvMzs
 
@@ -176,14 +77,6 @@ AWS Basics for Beginners - Full Course
 https://www.youtube.com/watch?v=ulprqHHWlng
 
 ===============================================================
-AWS Certified Cloud Practitioner Training 2020 - Full Course
-https://www.youtube.com/watch?v=3hLmDS179YE
-00:00
-
-React Tutorial: Weather App with RESTful APIs
-https://www.youtube.com/watch?v=cdBvSlVCOXw
-00:00
-
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
 
@@ -192,6 +85,14 @@ https://www.youtube.com/watch?v=RLtyhwFtXQA&list=PLWKjhJtqVAbmGQoa3vFjeRbRADAOC9
 
 JavaScript Tutorials Playlist
 https://www.youtube.com/watch?v=PkZNo7MFNFg&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V
+
+AWS Certified Cloud Practitioner Training 2020 - Full Course
+https://www.youtube.com/watch?v=3hLmDS179YE
+32:43
+
+React Tutorial: Weather App with RESTful APIs
+https://www.youtube.com/watch?v=cdBvSlVCOXw
+00:00
 
 ==============================================================
 
