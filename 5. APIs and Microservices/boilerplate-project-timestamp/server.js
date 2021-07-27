@@ -18,7 +18,7 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
-app.get('/api/', function (req, res) {
+app.get('/api', function (req, res) {
   const date = new Date();
 
   res.json({
@@ -37,7 +37,7 @@ app.get('/api/:date_str', function (req, res) {
     date = new Date(parseInt(date_str));
   }
 
-  if (date === 'Invalid Date') {
+  if (date.toString() === 'Invalid Date') {
     return res.json({
       error: 'Invalid Date',
     });
