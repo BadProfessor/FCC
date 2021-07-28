@@ -90,7 +90,7 @@ https://www.youtube.com/watch?v=PkZNo7MFNFg&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-
 
 AWS Certified Cloud Practitioner Training 2020 - Full Course
 https://www.youtube.com/watch?v=3hLmDS179YE
-40:09
+1:00:00
 
 React Tutorial: Weather App with RESTful APIs
 https://www.youtube.com/watch?v=cdBvSlVCOXw
