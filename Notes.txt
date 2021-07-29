@@ -69,13 +69,6 @@ python .\manage.py runserver    #run the server
 Flat UI Colors
 Bootstrap
 FontAwesome
-
-Conquering freeCodeCamp - Managing Packages with NPM - Live Stream #41
-https://www.youtube.com/watch?v=yMvflePvMzs
-
-AWS Basics for Beginners - Full Course
-https://www.youtube.com/watch?v=ulprqHHWlng
-
 ===============================================================
 React Tutorials Playlist
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC
@@ -86,15 +79,18 @@ https://www.youtube.com/watch?v=RLtyhwFtXQA&list=PLWKjhJtqVAbmGQoa3vFjeRbRADAOC9
 JavaScript Tutorials Playlist
 https://www.youtube.com/watch?v=PkZNo7MFNFg&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V
 
-===============================================================
-
-AWS Certified Cloud Practitioner Training 2020 - Full Course
-https://www.youtube.com/watch?v=3hLmDS179YE
-1:00:00
-
 React Tutorial: Weather App with RESTful APIs
 https://www.youtube.com/watch?v=cdBvSlVCOXw
 00:00
+
+===============================================================
+AWS Certified Cloud Practitioner Training 2020 - Full Course
+https://www.youtube.com/watch?v=3hLmDS179YE
+1:30:00
+
+Conquering freeCodeCamp - URL Shortener Microservice - Live Stream #46
+https://www.youtube.com/watch?v=rrju_1XH8Z8&list=PLgBH1CvjOA62oNEVgz-dECiCZCE_Q3ZFH&index=46
+16:30
 
 ==============================================================
 
