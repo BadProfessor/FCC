@@ -94,7 +94,7 @@ https://www.youtube.com/watch?v=rrju_1XH8Z8&list=PLgBH1CvjOA62oNEVgz-dECiCZCE_Q3
 
 ==============================================================
 
-AWS
+AWS/Azure
 APIs/Postman
 Adobe Experience Manager
 React(Express.js, MongoDB)
