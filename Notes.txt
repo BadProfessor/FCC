@@ -86,11 +86,11 @@ https://www.youtube.com/watch?v=cdBvSlVCOXw
 
 AWS Certified Cloud Practitioner Training 2020 - Full Course
 https://www.youtube.com/watch?v=3hLmDS179YE
-1:30:00
+2:00:00
 
-Conquering freeCodeCamp - URL Shortener Microservice - Live Stream #46
-https://www.youtube.com/watch?v=rrju_1XH8Z8&list=PLgBH1CvjOA62oNEVgz-dECiCZCE_Q3ZFH&index=46
-16:30
+Conquering freeCodeCamp - Exercise Tracker - Live Stream #47
+https://www.youtube.com/watch?v=E68FWyktDwA&list=PLgBH1CvjOA62oNEVgz-dECiCZCE_Q3ZFH&index=47
+5:00
 
 ==============================================================
 

@@ -23,7 +23,7 @@ let id = 0;
 // Your first API endpoint
 // https://www.freecodecamp.org
 app.post('/api/shorturl/', (req, res) => {
-  const { url } = req.body;
+  let { url } = req.body;
   const noHTTPSurl = url.replace(/^https?:\/\/.+\/?/, '');
 
   dns.lookup(noHTTPSurl, (err) => {
