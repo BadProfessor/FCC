@@ -56,17 +56,33 @@ app.post('/api/users/:_id/exercises', (req, res) => {
   res.json(newExercise);
 });
 
-app.get('/api/exercise/log', (req, res) => {
-  const { userId } = req.query;
+app.get('/api/:_id/logs', (req, res) => {
+  const { userId, from, to, limit } = req.query;
 
-  const log = getExercisesFromUserWithId(userId);
+  let temp = getExercisesFromUserWithId(userId);
 
-  res.json({
+  if (from) {
+    const fromDate = new Date(from);
+    temp = temp.filter((exe) => new Date(exe.date) > fromDate);
+  }
+
+  if (to) {
+    const toDate = new Date(to);
+    temp = temp.filter((exe) => new Date(exe.date) < toDate);
+  }
+
+  if (limit) {
+    temp = temp.slice(0, limit);
+  }
+
+  const log = {
     _id: userId,
     username: getUsernameById(userId),
-    count: log.length,
-    log,
-  });
+    count: parseFloat(temp.length),
+    log: temp,
+  };
+
+  res.json(log);
 });
 
 const listener = app.listen(process.env.PORT || 3000, () => {
