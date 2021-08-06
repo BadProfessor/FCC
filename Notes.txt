@@ -69,17 +69,9 @@ python .\manage.py runserver    #run the server
 Flat UI Colors
 Bootstrap
 FontAwesome
-===============================================================
-AWS Certified Cloud Practitioner Training 2020 - Full Course
-https://www.youtube.com/watch?v=3hLmDS179YE
-3:00:00
-
-Conquering freeCodeCamp - Exercise Tracker - Live Stream #47
-https://www.youtube.com/watch?v=cyZNFdfoM-o&list=PLgBH1CvjOA62oNEVgz-dECiCZCE_Q3ZFH&index=48
-
 ==============================================================
 
-AWS/Azure
-APIs/Postman
-Adobe Experience Manager
-React(Express.js, MongoDB)
+AWS
+Azure (Azure AD B2C)
+JavaScript (MongoDB, Express.js, React.js, Node.js)
+==============================================================
