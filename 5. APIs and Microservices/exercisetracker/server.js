@@ -56,7 +56,7 @@ app.post('/api/users/:_id/exercises', (req, res) => {
   res.json(newExercise);
 });
 
-app.get('/api/:_id/logs', (req, res) => {
+app.get('/api/users/:_id/logs?', (req, res) => {
   const { userId, from, to, limit } = req.query;
 
   let temp = getExercisesFromUserWithId(userId);
