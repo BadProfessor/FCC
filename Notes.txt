@@ -70,9 +70,9 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ==============================================================
-Planning for Azure Active Directory
-AWS...
-JS...
+Deploying Azure Active Directory
+Introduction to AWS for Non-Engineers: 1 Cloud Concepts
+Learning Node.js
 
 AWS
 Azure (Azure AD B2C)
